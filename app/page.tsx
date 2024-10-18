@@ -4,7 +4,7 @@ import styled from '@emotion/styled'
 import { Title2 } from '@fluentui/react-text'
 import { useRandomTodayOshimen } from '@/hooks/useOshimen'
 import { Button } from '@fluentui/react-button'
-import { TadoKing } from '@/components/TadoBoy/TadoKing'
+import { TadoBoy } from '@/components/TadoBoy/TadoBoy'
 import { OshimenCard } from '@/components/Card/OshimenCard'
 
 const Container = styled.div`
@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <Container>
       <Contents>
-        <TadoKing />
+        <TadoBoy />
         <Title2>もやしきんぐの推しメンは？</Title2>
         <OshimenCard oshimen={oshimen} />
         <Button>GitHubで推しメンを追加する</Button>

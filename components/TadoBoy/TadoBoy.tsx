@@ -8,7 +8,7 @@ const ImageContainer = styled.div`
   overflow: hidden;
 `
 
-export function TadoKing() {
+export function TadoBoy() {
   return (
     <ImageContainer>
       <Image src={tadoKing.src} alt="Tado King" width={100} height={100} />
