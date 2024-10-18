@@ -1,4 +1,5 @@
 import { useMemo } from 'react'
+import { useNowJSTDayjs } from '@/hooks/useDayjs'
 
 export interface Oshimen {
   id: string
@@ -29,10 +30,20 @@ function useOshimens() {
   )
 }
 
-export function useRandomTodayOshimen() {
+export function useBirthdayAwareRandomTodayOshimen() {
+  const dayjs = useNowJSTDayjs()
   const oshimens = useOshimens()
-  const today = new Date()
-  const todaySeed = today.getMonth() * 31 + today.getDate()
+
+  // 今日誕生日のアイドルの場合はそのアイドルを返す
+  const birthdayOshimen = oshimens.find(
+    (v) =>
+      v.birthday.month === dayjs.month() + 1 && v.birthday.day === dayjs.date(),
+  )
+  if (birthdayOshimen) {
+    return birthdayOshimen
+  }
+
+  const todaySeed = dayjs.month() * 31 + dayjs.date()
   const randomIndex = todaySeed % oshimens.length
   return oshimens[randomIndex]
 }

@@ -2,7 +2,7 @@
 
 import styled from '@emotion/styled'
 import { Title2 } from '@fluentui/react-text'
-import { useRandomTodayOshimen } from '@/hooks/useOshimen'
+import { useBirthdayAwareRandomTodayOshimen } from '@/hooks/useOshimen'
 import { Button } from '@fluentui/react-button'
 import { TadoBoy } from '@/components/TadoBoy/TadoBoy'
 import { OshimenCard } from '@/components/Card/OshimenCard'
@@ -23,7 +23,7 @@ const Contents = styled.div`
 `
 
 export default function Home() {
-  const oshimen = useRandomTodayOshimen()
+  const oshimen = useBirthdayAwareRandomTodayOshimen()
 
   return (
     <Container>
