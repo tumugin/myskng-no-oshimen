@@ -22,6 +22,8 @@ const Contents = styled.div`
   gap: 24px;
 `
 
+export const dynamic = 'force-dynamic'
+
 export default function Home() {
   const oshimen = useBirthdayAwareRandomTodayOshimen()
 
