@@ -1,40 +1,29 @@
-'use client'
+import { OshimenPage } from '@/components/Page/OshimenPage'
+import { oshimens } from '@/oshimen/oshimens'
+import { asiaTokyoDayjs } from '@/lib/tzDayjs'
 
-import styled from '@emotion/styled'
-import { Title2 } from '@fluentui/react-text'
-import { useBirthdayAwareRandomTodayOshimen } from '@/hooks/useOshimen'
-import { Button } from '@fluentui/react-button'
-import { TadoBoy } from '@/components/TadoBoy/TadoBoy'
-import { OshimenCard } from '@/components/Card/OshimenCard'
-
-const Container = styled.div`
-  display: grid;
-  place-items: center;
-  width: 100%;
-  min-height: 100%;
-  padding: 24px 16px;
-`
-
-const Contents = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 24px;
-`
-
+// Randomize the oshimen every time the page is loaded
 export const dynamic = 'force-dynamic'
 
 export default function Home() {
-  const oshimen = useBirthdayAwareRandomTodayOshimen()
+  const oshimen = createRandomOshimen()
 
-  return (
-    <Container>
-      <Contents>
-        <TadoBoy />
-        <Title2>もやしきんぐの推しメンは？</Title2>
-        <OshimenCard oshimen={oshimen} />
-        <Button>GitHubで推しメンを追加する</Button>
-      </Contents>
-    </Container>
+  return <OshimenPage oshimen={oshimen} />
+}
+
+function createRandomOshimen() {
+  const today = asiaTokyoDayjs()
+
+  // 今日誕生日のアイドルの場合はそのアイドルを返す
+  const birthdayOshimen = oshimens.find(
+    (v) =>
+      v.birthday.month === today.month() + 1 && v.birthday.day === today.date(),
   )
+  if (birthdayOshimen) {
+    return birthdayOshimen
+  }
+
+  const todaySeed = today.month() * 31 + today.date()
+  const randomIndex = todaySeed % oshimens.length
+  return oshimens[randomIndex]
 }

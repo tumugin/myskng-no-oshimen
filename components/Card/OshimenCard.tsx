@@ -1,10 +1,10 @@
-import { Oshimen } from '@/hooks/useOshimen'
 import { Card, CardFooter, CardHeader, CardPreview } from '@fluentui/react-card'
 import { PersonRunningRegular } from '@fluentui/react-icons'
 import { Body1, Caption1, Subtitle1 } from '@fluentui/react-text'
 import { css, Global } from '@emotion/react'
 import { TwitterTweetEmbed } from 'react-twitter-embed'
 import styled from '@emotion/styled'
+import { Oshimen } from '@/oshimen/oshimen'
 
 const StyledCard = styled(Card)`
   max-width: 500px;
