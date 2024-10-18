@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 
-interface Oshimen {
+export interface Oshimen {
   id: string
   name: string
   birthday: {
@@ -12,7 +12,7 @@ interface Oshimen {
   tweetId: string
 }
 
-function useOshimen() {
+function useOshimens() {
   return useMemo<Oshimen[]>(
     () => [
       {
@@ -30,9 +30,9 @@ function useOshimen() {
 }
 
 export function useRandomTodayOshimen() {
-  const oshimen = useOshimen()
+  const oshimens = useOshimens()
   const today = new Date()
   const todaySeed = today.getMonth() * 31 + today.getDate()
-  const randomIndex = todaySeed % oshimen.length
-  return oshimen[randomIndex]
+  const randomIndex = todaySeed % oshimens.length
+  return oshimens[randomIndex]
 }
