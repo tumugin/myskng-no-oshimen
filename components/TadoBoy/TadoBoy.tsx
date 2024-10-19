@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import tadoKing from '@/components/TadoBoy/tado.png'
 import styled from '@emotion/styled'
+import { forwardRef } from 'react'
 
 const ImageContainer = styled.div`
   display: flex;
@@ -8,10 +9,12 @@ const ImageContainer = styled.div`
   overflow: hidden;
 `
 
-export function TadoBoy() {
-  return (
-    <ImageContainer>
-      <Image src={tadoKing.src} alt="Tado King" width={100} height={100} />
-    </ImageContainer>
-  )
-}
+export const TadoBoy = forwardRef<HTMLDivElement>(
+  function TadoBoyInternal(props, ref) {
+    return (
+      <ImageContainer ref={ref}>
+        <Image src={tadoKing.src} alt="Tado King" width={100} height={100} />
+      </ImageContainer>
+    )
+  },
+)

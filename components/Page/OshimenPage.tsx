@@ -1,11 +1,11 @@
 'use client'
 
-import { TadoBoy } from '@/components/TadoBoy/TadoBoy'
 import { Title3 } from '@fluentui/react-text'
 import { OshimenCard } from '@/components/Card/OshimenCard'
 import { Button } from '@fluentui/react-button'
 import styled from '@emotion/styled'
 import { Oshimen } from '@/oshimen/oshimen'
+import { ShinkenTadoBoy } from '@/components/TadoBoy/ShinkenTadoBoy'
 
 const Container = styled.div`
   display: grid;
@@ -28,10 +28,10 @@ export function OshimenPage({ oshimen }: { oshimen: Oshimen }) {
   return (
     <Container>
       <Contents>
-        <TadoBoy />
+        <ShinkenTadoBoy shinkenIdolName={oshimen.name} />
         <Title3>もやしきんぐの推しメンは？</Title3>
         <OshimenCard oshimen={oshimen} />
-        <Button>GitHubで推しメンを追加する</Button>
+        <Button>他の推しメンを見てみる</Button>
       </Contents>
     </Container>
   )

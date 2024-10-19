@@ -15,6 +15,7 @@
     "@emotion/css": "^11.13.4",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@floating-ui/react": "^0.26.25",
     "@fluentui/react-components": "^9.55.1",
     "dayjs": "^1.11.13",
     "next": "14.2.15",
