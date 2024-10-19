@@ -52,7 +52,7 @@ export const oshimens: Oshimen[] = [
     tweetId: '1846154507270635774',
   },
   {
-    id: 'lilxusaki',
+    id: 'lilx_usaki',
     name: '李縷さき',
     emoji: '🦭',
     birthday: { month: 8, day: 2 },
@@ -60,5 +60,15 @@ export const oshimens: Oshimen[] = [
     description:
       '最近、りるさきが気になってるんですよね。もやしくん呼びが可愛すぎる。りるさきはいいぞ。',
     tweetId: '1847257456944292140',
+  },
+  {
+    id: 'rikka',
+    name: '六椛',
+    emoji: '🤍',
+    birthday: { month: 3, day: 21 },
+    shortDescription: 'ﾘｯｹﾁｪﾝ... ｶﾜｲｲﾈ...',
+    description:
+      'やはりﾘｯｹﾁｪﾝ... ｶﾜｲｲﾈ...。六椛ちゃんはいいぞ。いつも笑顔で、いつもかわいい。最高だね。',
+    tweetId: '1841475853953441879',
   },
 ]

@@ -1,12 +1,6 @@
 import 'the-new-css-reset/css/reset.css'
 import type { Metadata } from 'next'
-import { Noto_Color_Emoji } from 'next/font/google'
 import { RootLayout } from '@/components/RootLayout'
-
-const notoColorEmoji = Noto_Color_Emoji({
-  weight: '400',
-  subsets: ['emoji'],
-})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -20,7 +14,7 @@ export default function Layout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${notoColorEmoji.className}`}>
+      <body>
         <RootLayout>{children}</RootLayout>
       </body>
     </html>
