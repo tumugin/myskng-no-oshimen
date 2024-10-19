@@ -1,17 +1,11 @@
 import 'the-new-css-reset/css/reset.css'
 import type { Metadata } from 'next'
-import localFont from 'next/font/local'
+import { Noto_Color_Emoji } from 'next/font/google'
 import { RootLayout } from '@/components/RootLayout'
 
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
-})
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
+const notoColorEmoji = Noto_Color_Emoji({
+  weight: '400',
+  subsets: ['emoji'],
 })
 
 export const metadata: Metadata = {
@@ -26,7 +20,7 @@ export default function Layout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${notoColorEmoji.className}`}>
         <RootLayout>{children}</RootLayout>
       </body>
     </html>

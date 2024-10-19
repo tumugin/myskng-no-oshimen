@@ -17,6 +17,9 @@ const globalStyles = css`
     width: 100%;
     height: 100%;
   }
+  style {
+    display: none !important;
+  }
 `
 
 export function RootLayout({ children }: { children: ReactNode }) {
