@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 import { smartphoneWidth } from '@/components/style'
-import { headerHeight } from '@/components/Header/RightTopHeader'
+import { headerHeight } from '@/components/Header/Header'
 
 export const ShinkenContainer = styled.div`
   display: grid;

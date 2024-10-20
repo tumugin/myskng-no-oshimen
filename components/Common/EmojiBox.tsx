@@ -7,7 +7,7 @@ const notoColorEmoji = Noto_Color_Emoji({
 })
 
 const EmojiBoxContainer = styled.div<{ size: number }>`
-  font-size: 32px;
+  font-size: ${({ size }) => size}px;
 `
 
 export function EmojiBox({ emoji, size }: { emoji: string; size: number }) {
