@@ -8,7 +8,7 @@ import { createDOMRenderer } from '@griffel/core'
 import { useServerInsertedHTML } from 'next/navigation'
 import { RendererProvider, renderToStyleElements } from '@griffel/react'
 import { SSRProvider } from '@fluentui/react-utilities'
-import { RightTopHeader } from '@/components/Header/RightTopHeader'
+import { Header } from '@/components/Header/Header'
 
 const globalStyles = css`
   html,
@@ -39,7 +39,7 @@ export function RootLayout({ children }: { children: ReactNode }) {
           id="root-element"
         >
           <Global styles={globalStyles} />
-          <RightTopHeader />
+          <Header />
           {children}
         </FluentProvider>
       </SSRProvider>

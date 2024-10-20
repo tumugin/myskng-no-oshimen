@@ -22,6 +22,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-twitter-embed": "^4.0.4",
+    "sharp": "^0.33.5",
     "the-new-css-reset": "^1.11.3"
   },
   "devDependencies": {

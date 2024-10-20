@@ -44,7 +44,7 @@ export const oshimens: Oshimen[] = [
   {
     id: 'mayuri',
     name: '仔羽まゆり',
-    emoji: '🤍',
+    emoji: '👼',
     birthday: { month: 6, day: 26 },
     shortDescription: 'ﾏﾕﾘﾁｬﾝ... ｶﾜｲｲﾈ...',
     description:
@@ -70,5 +70,25 @@ export const oshimens: Oshimen[] = [
     description:
       'やはりﾘｯｹﾁｪﾝ... ｶﾜｲｲﾈ...。六椛ちゃんはいいぞ。いつも笑顔で、いつもかわいい。最高だね。',
     tweetId: '1841475853953441879',
+  },
+  {
+    id: 'horie',
+    name: '堀江晶太',
+    emoji: '🎸',
+    birthday: { month: 5, day: 31 },
+    shortDescription: 'やっぱ堀江晶太なんだよな〜〜〜〜',
+    description:
+      'やっぱ堀江晶太なんだよな〜〜〜〜。おまえらも堀江の曲を聴け。堀江曲からしか得られない成分がある。',
+    tweetId: '1509887009380499457',
+  },
+  {
+    id: 'hisui',
+    name: '月埜ヒスイ',
+    emoji: '🌊',
+    birthday: { month: 7, day: 23 },
+    shortDescription: 'ﾋｽｲﾁｬﾝ... ｶﾜｲｲﾈ...',
+    description:
+      '月ヒスの水着で夏が始まるって言っても過言じゃない。俺はそう信じている。',
+    tweetId: '1820431513567277211',
   },
 ]
