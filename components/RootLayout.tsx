@@ -17,6 +17,7 @@ const globalStyles = css`
     margin: 0;
     width: 100%;
     height: 100%;
+    background-color: #292929;
   }
   style {
     display: none !important;
