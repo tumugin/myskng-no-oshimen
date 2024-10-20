@@ -1,11 +1,12 @@
 import styled from '@emotion/styled'
 import { smartphoneWidth } from '@/components/style'
+import { headerHeight } from '@/components/Header/RightTopHeader'
 
 export const ShinkenContainer = styled.div`
   display: grid;
   place-items: center;
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - ${headerHeight});
   padding: 24px 16px;
   box-sizing: border-box;
 

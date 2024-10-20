@@ -8,6 +8,7 @@ import { createDOMRenderer } from '@griffel/core'
 import { useServerInsertedHTML } from 'next/navigation'
 import { RendererProvider, renderToStyleElements } from '@griffel/react'
 import { SSRProvider } from '@fluentui/react-utilities'
+import { RightTopHeader } from '@/components/Header/RightTopHeader'
 
 const globalStyles = css`
   html,
@@ -35,8 +36,10 @@ export function RootLayout({ children }: { children: ReactNode }) {
         <FluentProvider
           theme={webDarkTheme}
           style={{ minHeight: '100%' }}
+          id="root-element"
         >
           <Global styles={globalStyles} />
+          <RightTopHeader />
           {children}
         </FluentProvider>
       </SSRProvider>

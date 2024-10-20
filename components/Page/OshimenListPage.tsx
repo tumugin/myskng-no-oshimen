@@ -27,6 +27,9 @@ const IdolList = styled.div`
 const StyledCompoundButton = styled(CompoundButton)`
   justify-content: flex-start !important;
   width: 100%;
+  // FIXME: 他のページから遷移するとこのスタイルが当たらないので強制的に当てる
+  padding: 18px var(--spacingHorizontalL) var(--spacingHorizontalXL)
+    var(--spacingHorizontalL) !important;
 `
 
 const StyledBlockLink = styled(Link)`
