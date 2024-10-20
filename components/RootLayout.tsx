@@ -1,7 +1,7 @@
 'use client'
 
 import { ReactNode, useMemo } from 'react'
-import { webLightTheme } from '@fluentui/tokens'
+import { webDarkTheme } from '@fluentui/tokens'
 import { FluentProvider } from '@fluentui/react-provider'
 import { css, Global } from '@emotion/react'
 import { createDOMRenderer } from '@griffel/core'
@@ -32,7 +32,10 @@ export function RootLayout({ children }: { children: ReactNode }) {
   return (
     <RendererProvider renderer={renderer}>
       <SSRProvider>
-        <FluentProvider theme={webLightTheme} style={{ height: '100%' }}>
+        <FluentProvider
+          theme={webDarkTheme}
+          style={{ minHeight: '100%' }}
+        >
           <Global styles={globalStyles} />
           {children}
         </FluentProvider>

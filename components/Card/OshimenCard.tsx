@@ -6,11 +6,12 @@ import styled from '@emotion/styled'
 import { Oshimen } from '@/oshimen/oshimen'
 import { TweetSkeleton } from '@/components/Skelton/TweetSkelton'
 import { Noto_Color_Emoji } from 'next/font/google'
+import { smartphoneWidth } from '@/components/style'
 
 const StyledCard = styled(Card)`
   width: 500px;
 
-  @media (max-width: 600px) {
+  @media (max-width: ${smartphoneWidth}) {
     width: 100%;
   }
 `
@@ -31,7 +32,7 @@ const globalTwitterStyles = css`
 `
 
 const EmojiBox = styled.div`
-  font-size: 50px;
+  font-size: 32px;
 `
 
 const notoColorEmoji = Noto_Color_Emoji({
@@ -55,7 +56,7 @@ export function OshimenCard({ oshimen }: { oshimen: Oshimen }) {
         <Global styles={globalTwitterStyles} />
         <TwitterTweetEmbed
           tweetId={oshimen.tweetId}
-          options={{ height: '500px' }}
+          options={{ height: '500px', theme: 'dark' }}
           placeholder={<TweetSkeleton />}
         />
       </TwitterContainer>

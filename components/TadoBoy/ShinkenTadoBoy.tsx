@@ -18,6 +18,10 @@ const Popup = styled.div`
   border-radius: 8px;
 `
 
+const ShinkenText = styled.span`
+  font-weight: bold;
+`
+
 const StyledFloatingArrow = styled(FloatingArrow)`
   fill: #6699c8;
 `
@@ -46,7 +50,9 @@ export function ShinkenTadoBoy({
       <TadoBoy ref={refs.setReference} />
       <OnlyClient>
         <Popup ref={refs.setFloating} style={floatingStyles}>
-          <span>{shinkenIdolName}に真剣です</span>
+          <span>
+            <ShinkenText>{shinkenIdolName}</ShinkenText>に真剣です
+          </span>
           <StyledFloatingArrow ref={arrowRef} context={context} />
         </Popup>
       </OnlyClient>
