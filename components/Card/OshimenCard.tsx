@@ -5,8 +5,8 @@ import { TwitterTweetEmbed } from 'react-twitter-embed'
 import styled from '@emotion/styled'
 import { Oshimen } from '@/oshimen/oshimen'
 import { TweetSkeleton } from '@/components/Skelton/TweetSkelton'
-import { Noto_Color_Emoji } from 'next/font/google'
 import { smartphoneWidth } from '@/components/style'
+import { EmojiBox } from '@/components/Common/EmojiBox'
 
 const StyledCard = styled(Card)`
   width: 500px;
@@ -31,24 +31,11 @@ const globalTwitterStyles = css`
   }
 `
 
-const EmojiBox = styled.div`
-  font-size: 32px;
-`
-
-const notoColorEmoji = Noto_Color_Emoji({
-  weight: '400',
-  subsets: ['emoji'],
-})
-
 export function OshimenCard({ oshimen }: { oshimen: Oshimen }) {
   return (
     <StyledCard>
       <CardHeader
-        image={
-          <EmojiBox className={`${notoColorEmoji.className}`}>
-            {oshimen.emoji}
-          </EmojiBox>
-        }
+        image={<EmojiBox size={32} emoji={oshimen.emoji} />}
         header={<Subtitle1>{oshimen.name}</Subtitle1>}
         description={<Caption1>{oshimen.shortDescription}</Caption1>}
       />
