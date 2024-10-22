@@ -23,7 +23,11 @@ function createRandomOshimen() {
     return birthdayOshimen
   }
 
-  const todaySeed = today.month() * 31 + today.date()
+  const minutes = today.hour() * 60 + today.minute()
+  const todaySeed =
+    today.month() * 31 * 24 * 60 +
+    today.date() * 24 * 60 +
+    Math.floor(minutes / 5)
   const randomIndex = todaySeed % oshimens.length
   return oshimens[randomIndex]
 }

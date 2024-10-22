@@ -29,7 +29,7 @@ export function Header() {
   return (
     <Container>
       <Tooltip
-        content="日替わりの推しメンを見てみる"
+        content="今真剣な推しメンを見てみる"
         relationship="label"
         mountNode={rootElement}
       >
