@@ -7,7 +7,7 @@ export const ShinkenContainer = styled.div`
   place-items: center;
   width: 100%;
   min-height: calc(100vh - ${headerHeight});
-  padding: 24px 16px;
+  padding: 48px 16px;
   box-sizing: border-box;
 
   @media (max-width: ${smartphoneWidth}) {
