@@ -25,6 +25,7 @@ function createRandomOshimen() {
 
   const minutes = today.hour() * 60 + today.minute()
   const todaySeed =
+    today.year() +
     today.month() * 31 * 24 * 60 +
     today.date() * 24 * 60 +
     Math.floor(minutes / 5)
