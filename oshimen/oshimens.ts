@@ -91,4 +91,23 @@ export const oshimens: Oshimen[] = [
       '月ヒスの水着で夏が始まるって言っても過言じゃない。俺はそう信じている。',
     tweetId: '1820431513567277211',
   },
+  {
+    id: 'rin',
+    name: 'リンドウ=リン',
+    emoji: '🐟',
+    birthday: { month: 7, day: 14 },
+    shortDescription: 'ﾘﾝﾁｬﾝ... ｶﾜｲｲﾈ...',
+    description: 'やはりリンドウ=リン、お顔が良すぎる。良すぎるってマジで。',
+    tweetId: '1848325062748946754',
+  },
+  {
+    id: 'kino',
+    name: '佳凪きの',
+    emoji: '📝',
+    birthday: { month: 1, day: 2 },
+    shortDescription: 'ｷﾉﾁｬﾝ... ｶﾜｲｲﾈ...',
+    description:
+      'おまえら、佳凪きのちゃんのこと好きだろ？noteは読んだか？あれは読んだ方が良いぞ。',
+    tweetId: '1847210316666741024',
+  },
 ]
