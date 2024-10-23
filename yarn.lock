@@ -5581,7 +5581,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-disposable@npm:^1.0.1":
+"use-disposable@npm:1.0.2":
   version: 1.0.2
   resolution: "use-disposable@npm:1.0.2"
   peerDependencies:
@@ -5590,6 +5590,18 @@ __metadata:
     react: ">=16.8.0 <19.0.0"
     react-dom: ">=16.8.0 <19.0.0"
   checksum: 10c0/35593969f3125e995df6d34f9d97fd5c1a5186c35aa1ba135b4d310f2be651fabb6cf0a6a3f10d7fab215ae050b01c5fc08072cae4605d1ded13995c2549db38
+  languageName: node
+  linkType: hard
+
+"use-disposable@patch:use-disposable@npm%3A1.0.2#~/.yarn/patches/use-disposable-npm-1.0.2-4e7bcefcd6.patch":
+  version: 1.0.2
+  resolution: "use-disposable@patch:use-disposable@npm%3A1.0.2#~/.yarn/patches/use-disposable-npm-1.0.2-4e7bcefcd6.patch::version=1.0.2&hash=bf2ea1"
+  peerDependencies:
+    "@types/react": ">=16.8.0 <19.0.0"
+    "@types/react-dom": ">=16.8.0 <19.0.0"
+    react: ">=16.8.0 <19.0.0"
+    react-dom: ">=16.8.0 <19.0.0"
+  checksum: 10c0/d8aec3814737fb2b24cdde1e9db30441903017f78c76cd163ff642a5e8a5722ea47df7fc2be0a1d823ceafb1f86024c968ca04586acf2bb48c891ed6e3bce6cd
   languageName: node
   linkType: hard
 
