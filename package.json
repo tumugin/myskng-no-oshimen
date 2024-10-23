@@ -19,8 +19,8 @@
     "@fluentui/react-components": "^9.55.1",
     "dayjs": "^1.11.13",
     "next": "15.0.1",
-    "react": "19.0.0-rc-69d4b800-20241021",
-    "react-dom": "19.0.0-rc-69d4b800-20241021",
+    "react": "19.0.0-rc-fb9a90fa48-20240614",
+    "react-dom": "19.0.0-rc-fb9a90fa48-20240614",
     "react-twitter-embed": "^4.0.4",
     "sharp": "^0.33.5",
     "the-new-css-reset": "^1.11.3"
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "npm:types-react@19.0.0-rc.1",
-    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0",
     "eslint": "^9.0.0",
     "eslint-config-next": "15.0.1",
     "prettier": "^3.3.3",
@@ -38,6 +38,6 @@
   "resolutions": {
     "use-disposable@npm:^1.0.1": "patch:use-disposable@npm%3A1.0.2#~/.yarn/patches/use-disposable-npm-1.0.2-4e7bcefcd6.patch",
     "@types/react": "npm:types-react@19.0.0-rc.1",
-    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
+    "@types/react-dom": "npm:types-react-dom@19.0.0"
   }
 }
