@@ -29,7 +29,7 @@
     "@types/node": "^20",
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
-    "eslint": "^8",
+    "eslint": "^9.0.0",
     "eslint-config-next": "15.0.1",
     "prettier": "^3.3.3",
     "typescript": "^5"
