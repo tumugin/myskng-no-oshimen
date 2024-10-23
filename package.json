@@ -18,7 +18,7 @@
     "@floating-ui/react": "^0.26.25",
     "@fluentui/react-components": "^9.55.1",
     "dayjs": "^1.11.13",
-    "next": "14.2.16",
+    "next": "15.0.1",
     "react": "^18",
     "react-dom": "^18",
     "react-twitter-embed": "^4.0.4",
@@ -30,7 +30,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.16",
+    "eslint-config-next": "15.0.1",
     "prettier": "^3.3.3",
     "typescript": "^5"
   },
