@@ -1,9 +1,7 @@
-import { useLayoutEffect, useState } from 'react'
+import { createContext, useContext } from 'react'
+
+export const RootLayoutContext = createContext<HTMLDivElement | null>(null)
 
 export function useFluentUIRootElement() {
-  const [rootElement, setRootElement] = useState<HTMLElement | null>(null)
-  useLayoutEffect(() => {
-    setRootElement(document.getElementById('root-element'))
-  }, [])
-  return rootElement
+  return useContext(RootLayoutContext)
 }
