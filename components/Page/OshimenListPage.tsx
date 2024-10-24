@@ -12,6 +12,7 @@ import {
 import { EmojiBox } from '@/components/Common/EmojiBox'
 import { smartphoneWidth } from '@/components/style'
 import Link from 'next/link'
+import { makeStyles } from '@griffel/react'
 
 const IdolList = styled.div`
   display: flex;
@@ -24,19 +25,20 @@ const IdolList = styled.div`
   }
 `
 
-const StyledCompoundButton = styled(CompoundButton)`
-  justify-content: flex-start !important;
-  width: 100%;
-  // FIXME: 他のページから遷移するとこのスタイルが当たらないので強制的に当てる
-  padding: 18px var(--spacingHorizontalL) var(--spacingHorizontalXL)
-    var(--spacingHorizontalL) !important;
-`
+const useCompoundButtonStyle = makeStyles({
+  oshimenButton: {
+    'justify-content': 'flex-start',
+    width: '100%',
+  },
+})
 
 const StyledBlockLink = styled(Link)`
   display: block;
 `
 
 export function OshimenListPage({ oshimens }: { oshimens: Oshimen[] }) {
+  const fuiStyles = useCompoundButtonStyle()
+
   return (
     <ShinkenContainer>
       <ShinkenContents>
@@ -45,13 +47,15 @@ export function OshimenListPage({ oshimens }: { oshimens: Oshimen[] }) {
         <IdolList>
           {oshimens.map((oshimen) => (
             <StyledBlockLink href={`/oshimens/${oshimen.id}`} key={oshimen.id}>
-              <StyledCompoundButton
+              <CompoundButton
                 icon={<EmojiBox emoji={oshimen.emoji} size={32} />}
                 secondaryContent={oshimen.shortDescription}
                 size="large"
+                className={fuiStyles.oshimenButton}
+                key={oshimen.id}
               >
                 {oshimen.name}
-              </StyledCompoundButton>
+              </CompoundButton>
             </StyledBlockLink>
           ))}
         </IdolList>
