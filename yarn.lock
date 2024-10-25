@@ -5300,13 +5300,13 @@ __metadata:
 
 "use-disposable@patch:use-disposable@npm%3A1.0.2#~/.yarn/patches/use-disposable-npm-1.0.2-4e7bcefcd6.patch":
   version: 1.0.2
-  resolution: "use-disposable@patch:use-disposable@npm%3A1.0.2#~/.yarn/patches/use-disposable-npm-1.0.2-4e7bcefcd6.patch::version=1.0.2&hash=a69f1a"
+  resolution: "use-disposable@patch:use-disposable@npm%3A1.0.2#~/.yarn/patches/use-disposable-npm-1.0.2-4e7bcefcd6.patch::version=1.0.2&hash=9441cf"
   peerDependencies:
     "@types/react": ">=16.8.0 <19.0.0"
     "@types/react-dom": ">=16.8.0 <19.0.0"
     react: ">=16.8.0 <19.0.0"
     react-dom: ">=16.8.0 <19.0.0"
-  checksum: 10c0/6f56725167041a986930cd0ca5e8cf4e17bab4652b87fce4755d17838ea95961baf25644fe28db4da8a9a35810453f85af55cddb3b7c9978380659066fe9cd99
+  checksum: 10c0/e742b009b905e66a1f42f48f910cb1902ff6a378d90bac7d9b02ed3cf5ed1f5ef8b2674444347aaec6ff82c003eac6722f3b7e0197b864fb164b8ff104d7671f
   languageName: node
   linkType: hard
 
