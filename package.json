@@ -26,7 +26,7 @@
     "the-new-css-reset": "^1.11.3"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^22.0.0",
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "@types/react-dom": "npm:types-react-dom@19.0.0",
     "eslint": "^9.0.0",
