@@ -707,9 +707,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fluentui/react-carousel@npm:^9.3.0":
-  version: 9.3.0
-  resolution: "@fluentui/react-carousel@npm:9.3.0"
+"@fluentui/react-carousel@npm:^9.3.1":
+  version: 9.3.1
+  resolution: "@fluentui/react-carousel@npm:9.3.1"
   dependencies:
     "@fluentui/react-aria": "npm:^9.13.9"
     "@fluentui/react-button": "npm:^9.3.95"
@@ -730,7 +730,7 @@ __metadata:
     "@types/react-dom": ">=16.9.0 <19.0.0"
     react: ">=16.14.0 <19.0.0"
     react-dom: ">=16.14.0 <19.0.0"
-  checksum: 10c0/b1f4680a4794516516e30b2f8e784379244ad156e26f0d8b34243a6cc096dd07803661e6e5051a9aeb95c541cecbba7cef2d18a133155bd3637b0dc15922c198
+  checksum: 10c0/9e258a6eb12d15737363d52d338084d61ae39e8b0f7eb11d8bdda2495294c71ed693da20c79aab9d44f2ece109fa30c320f7cc2bdd1bd0bb41605607e55086c1
   languageName: node
   linkType: hard
 
@@ -785,8 +785,8 @@ __metadata:
   linkType: hard
 
 "@fluentui/react-components@npm:^9.55.1":
-  version: 9.56.0
-  resolution: "@fluentui/react-components@npm:9.56.0"
+  version: 9.56.1
+  resolution: "@fluentui/react-components@npm:9.56.1"
   dependencies:
     "@fluentui/react-accordion": "npm:^9.5.8"
     "@fluentui/react-alert": "npm:9.0.0-beta.124"
@@ -796,12 +796,12 @@ __metadata:
     "@fluentui/react-breadcrumb": "npm:^9.0.42"
     "@fluentui/react-button": "npm:^9.3.95"
     "@fluentui/react-card": "npm:^9.0.97"
-    "@fluentui/react-carousel": "npm:^9.3.0"
+    "@fluentui/react-carousel": "npm:^9.3.1"
     "@fluentui/react-checkbox": "npm:^9.2.40"
     "@fluentui/react-combobox": "npm:^9.13.11"
-    "@fluentui/react-dialog": "npm:^9.11.19"
+    "@fluentui/react-dialog": "npm:^9.11.20"
     "@fluentui/react-divider": "npm:^9.2.77"
-    "@fluentui/react-drawer": "npm:^9.5.19"
+    "@fluentui/react-drawer": "npm:^9.6.0"
     "@fluentui/react-field": "npm:^9.1.79"
     "@fluentui/react-image": "npm:^9.1.75"
     "@fluentui/react-infobutton": "npm:9.0.0-beta.102"
@@ -833,8 +833,8 @@ __metadata:
     "@fluentui/react-table": "npm:^9.15.21"
     "@fluentui/react-tabs": "npm:^9.6.1"
     "@fluentui/react-tabster": "npm:^9.23.0"
-    "@fluentui/react-tag-picker": "npm:^9.3.7"
-    "@fluentui/react-tags": "npm:^9.3.21"
+    "@fluentui/react-tag-picker": "npm:^9.3.8"
+    "@fluentui/react-tags": "npm:^9.3.22"
     "@fluentui/react-teaching-popover": "npm:^9.1.21"
     "@fluentui/react-text": "npm:^9.4.27"
     "@fluentui/react-textarea": "npm:^9.3.91"
@@ -852,7 +852,7 @@ __metadata:
     "@types/react-dom": ">=16.9.0 <19.0.0"
     react: ">=16.14.0 <19.0.0"
     react-dom: ">=16.14.0 <19.0.0"
-  checksum: 10c0/86805367534ac9593e824c6d3ad5bbcaba4472ff66d6e66aabd5fd360dc02d0488bd234bdfabb23b8ba48de7a991acef1ec3288c1657370d8f74ee2adfed3ade
+  checksum: 10c0/2e7febfbb34f4d4403a3f4ed11eeb8112a7a31f9abd7aaa55a9cc6b4e9824718790d76ee5c9ee3922d47ca1bfa16c6423a9f738b4090fdc8b1f121e7fe8d4461
   languageName: node
   linkType: hard
 
@@ -888,9 +888,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fluentui/react-dialog@npm:^9.11.19":
-  version: 9.11.19
-  resolution: "@fluentui/react-dialog@npm:9.11.19"
+"@fluentui/react-dialog@npm:^9.11.20":
+  version: 9.11.20
+  resolution: "@fluentui/react-dialog@npm:9.11.20"
   dependencies:
     "@fluentui/keyboard-keys": "npm:^9.0.8"
     "@fluentui/react-aria": "npm:^9.13.9"
@@ -910,7 +910,7 @@ __metadata:
     "@types/react-dom": ">=16.9.0 <19.0.0"
     react: ">=16.14.0 <19.0.0"
     react-dom: ">=16.14.0 <19.0.0"
-  checksum: 10c0/0bdd649d4cc9d75804b01fda419f42ac60db594bbf53c9a4d1d5413af71170facbb11c02ee71936a31590dd4d883462ef85167dddd49dfa128b18f6dbeb700fd
+  checksum: 10c0/ab56a874c085e52d8710bae17cfad41944df2540c90c3c303fec71b520568623b3126d5f5241b89e621225a28d8ce3ae504857c0d53d98296346550ffcffb8ee
   languageName: node
   linkType: hard
 
@@ -933,13 +933,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fluentui/react-drawer@npm:^9.5.19":
-  version: 9.5.19
-  resolution: "@fluentui/react-drawer@npm:9.5.19"
+"@fluentui/react-drawer@npm:^9.6.0":
+  version: 9.6.0
+  resolution: "@fluentui/react-drawer@npm:9.6.0"
   dependencies:
-    "@fluentui/react-dialog": "npm:^9.11.19"
+    "@fluentui/react-dialog": "npm:^9.11.20"
     "@fluentui/react-jsx-runtime": "npm:^9.0.46"
     "@fluentui/react-motion": "npm:^9.6.1"
+    "@fluentui/react-portal": "npm:^9.4.38"
     "@fluentui/react-shared-contexts": "npm:^9.21.0"
     "@fluentui/react-tabster": "npm:^9.23.0"
     "@fluentui/react-theme": "npm:^9.1.22"
@@ -951,7 +952,7 @@ __metadata:
     "@types/react-dom": ">=16.9.0 <19.0.0"
     react: ">=16.14.0 <19.0.0"
     react-dom: ">=16.14.0 <19.0.0"
-  checksum: 10c0/a226a117ecb7d43cd33b595705a1005bcdca824dc0750d7050edb50e0820578ddf0914e2a7af665a2d2d92f4e38db69c674bd027c66faf2336d7ca80254de950
+  checksum: 10c0/1194ccbc2ffbdcd13c4e6bd7c0859f19947c7b5b58761b961d59d0ee03dbd7d4f694b18459e5f465e8acb97bc731d3c63ec4926215a0a04d7540e990dd7836cd
   languageName: node
   linkType: hard
 
@@ -1791,9 +1792,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fluentui/react-tag-picker@npm:^9.3.7":
-  version: 9.3.7
-  resolution: "@fluentui/react-tag-picker@npm:9.3.7"
+"@fluentui/react-tag-picker@npm:^9.3.8":
+  version: 9.3.8
+  resolution: "@fluentui/react-tag-picker@npm:9.3.8"
   dependencies:
     "@fluentui/keyboard-keys": "npm:^9.0.8"
     "@fluentui/react-aria": "npm:^9.13.9"
@@ -1806,7 +1807,7 @@ __metadata:
     "@fluentui/react-positioning": "npm:^9.15.11"
     "@fluentui/react-shared-contexts": "npm:^9.21.0"
     "@fluentui/react-tabster": "npm:^9.23.0"
-    "@fluentui/react-tags": "npm:^9.3.21"
+    "@fluentui/react-tags": "npm:^9.3.22"
     "@fluentui/react-theme": "npm:^9.1.22"
     "@fluentui/react-utilities": "npm:^9.18.17"
     "@griffel/react": "npm:^1.5.22"
@@ -1816,13 +1817,13 @@ __metadata:
     "@types/react-dom": ">=16.9.0 <19.0.0"
     react: ">=16.14.0 <19.0.0"
     react-dom: ">=16.14.0 <19.0.0"
-  checksum: 10c0/f5b58b0e10866e7c54d08e2338d5cfb96cf74e6f8d1542fbff88f726c55c34cb17ddb880651573f9babb8679c161325f7c5cba63d64280191b78dd6062c7081e
+  checksum: 10c0/0b221b895ae03b8acd50d3c6aeed718784dcc3fcea253f4afd894cd7ce348fe62819dc26fbdfae11b402d67daeaa88ff04b616e7582bd37df3ca0ac4d82530a2
   languageName: node
   linkType: hard
 
-"@fluentui/react-tags@npm:^9.3.21":
-  version: 9.3.21
-  resolution: "@fluentui/react-tags@npm:9.3.21"
+"@fluentui/react-tags@npm:^9.3.22":
+  version: 9.3.22
+  resolution: "@fluentui/react-tags@npm:9.3.22"
   dependencies:
     "@fluentui/keyboard-keys": "npm:^9.0.8"
     "@fluentui/react-aria": "npm:^9.13.9"
@@ -1840,7 +1841,7 @@ __metadata:
     "@types/react-dom": ">=16.9.0 <19.0.0"
     react: ">=16.14.0 <19.0.0"
     react-dom: ">=16.14.0 <19.0.0"
-  checksum: 10c0/9e7870e8588ce823eebf88b6ff2a220bb707ca50eb3f1a492f93a75c8dc22a9fd663c4d8de97b505a86ec2de5ea2d7a1f1b5230e613ceeef9d1b08e3b9411b05
+  checksum: 10c0/866ce73328b4bd7963245d23516d6ead9bf8447efa7c8460e461fd772379a3ae5278cb6e3f8bf65f25922255da770bca1c2fe63ce11478359d483c963d6dc851
   languageName: node
   linkType: hard
 
