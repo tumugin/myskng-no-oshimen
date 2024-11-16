@@ -110,4 +110,14 @@ export const oshimens: Oshimen[] = [
       'おまえら、佳凪きのちゃんのこと好きだろ？noteは読んだか？あれは読んだ方が良いぞ。',
     tweetId: '1847210316666741024',
   },
+    {
+    id: 'ninehour',
+    name: '9時間1500円',
+    emoji: '💴',
+    birthday: { month: 6, day: 6 },
+    shortDescription: 'ｷｭｳｼﾞｶﾝｾﾝｺﾞﾋｬｸｴﾝ...ﾔｽｲﾈ...',
+    description:
+      '濃厚接触最高!!!!!!',
+    tweetId: '1136714183083511809',
+  },
 ]
