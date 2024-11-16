@@ -118,6 +118,6 @@ export const oshimens: Oshimen[] = [
     shortDescription: 'ﾅﾅﾐﾁｬﾝ... ｶｯｺｲｲﾈ...',
     description:
       '所沢住んでる人はみん菜波推しです。',
-    tweetId: '1847210316666741024',
+    tweetId: '1057102208548823040',
   },
 ]
