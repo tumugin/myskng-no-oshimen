@@ -110,4 +110,14 @@ export const oshimens: Oshimen[] = [
       'おまえら、佳凪きのちゃんのこと好きだろ？noteは読んだか？あれは読んだ方が良いぞ。',
     tweetId: '1847210316666741024',
   },
+    {
+    id: 'nanami',
+    name: '立花菜波',
+    emoji: '⛰️',
+    birthday: { month: 1, day: 30 },
+    shortDescription: 'ﾅﾅﾐﾁｬﾝ... ｶｯｺｲｲﾈ...',
+    description:
+      '所沢住んでる人はみん菜波推しです。',
+    tweetId: '1847210316666741024',
+  },
 ]
