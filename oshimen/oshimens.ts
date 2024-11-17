@@ -116,7 +116,7 @@ export const oshimens: Oshimen[] = [
     emoji: '⛰️',
     birthday: { month: 1, day: 30 },
     shortDescription: 'ﾅﾅﾐﾁｬﾝ... ｶｯｺｲｲﾈ...',
-    description: '所沢住んでる人はみん菜波推しです。',
+    description: '所沢住んでる人はみんな菜波推しです。',
     tweetId: '1057102208548823040',
   },
 ]
