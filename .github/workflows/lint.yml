@@ -21,3 +21,4 @@ jobs:
           cache: 'yarn'
       - run: yarn install
       - run: yarn run lint
+      - run: yarn run prettier:check
