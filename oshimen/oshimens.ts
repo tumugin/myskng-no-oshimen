@@ -117,6 +117,6 @@ export const oshimens: Oshimen[] = [
     birthday: { month: 1, day: 30 },
     shortDescription: 'ﾅﾅﾐﾁｬﾝ... ｶｯｺｲｲﾈ...',
     description: '所沢住んでる人はみんな菜波推しです。',
-    tweetId: '1057102208548823040',
+    tweetId: '1858119803015512143',
   },
 ]
