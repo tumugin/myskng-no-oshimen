@@ -4625,7 +4625,7 @@ __metadata:
     "@floating-ui/react": "npm:^0.26.28"
     "@fluentui/react-components": "npm:^9.56.2"
     "@types/node": "npm:^22.9.3"
-    "@types/react": "npm:18.3.12"
+    "@types/react": "npm:^18.3.12"
     "@types/react-dom": "npm:types-react-dom@19.0.0"
     "@typescript-eslint/eslint-plugin": "npm:^8.15.0"
     "@typescript-eslint/parser": "npm:^8.15.0"
