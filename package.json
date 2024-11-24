@@ -12,11 +12,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@emotion/css": "^11.13.4",
-    "@emotion/react": "^11.13.3",
-    "@emotion/styled": "^11.13.0",
-    "@floating-ui/react": "^0.26.25",
-    "@fluentui/react-components": "^9.55.1",
+    "@emotion/css": "^11.13.5",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@floating-ui/react": "^0.26.28",
+    "@fluentui/react-components": "^9.56.2",
     "dayjs": "^1.11.13",
     "next": "15.0.3",
     "react": "19.0.0-rc-fb9a90fa48-20240614",
@@ -26,17 +26,19 @@
     "the-new-css-reset": "^1.11.3"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/node": "^22.9.3",
+    "@types/react": "18.3.12",
     "@types/react-dom": "npm:types-react-dom@19.0.0",
-    "eslint": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "eslint": "^9.15.0",
     "eslint-config-next": "15.0.3",
     "prettier": "^3.3.3",
     "typescript": "^5"
   },
   "packageManager": "yarn@4.5.1",
   "resolutions": {
-    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react": "npm:types-react@19.0.0-alpha.3",
     "@types/react-dom": "npm:types-react-dom@19.0.0"
   }
 }
