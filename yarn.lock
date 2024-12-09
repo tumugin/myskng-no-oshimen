@@ -2280,13 +2280,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prop-types@npm:*":
-  version: 15.7.14
-  resolution: "@types/prop-types@npm:15.7.14"
-  checksum: 10c0/1ec775160bfab90b67a782d735952158c7e702ca4502968aa82565bd8e452c2de8601c8dfe349733073c31179116cf7340710160d3836aa8a1ef76d1532893b1
-  languageName: node
-  linkType: hard
-
 "@types/react-dom@npm:types-react-dom@19.0.0":
   version: 19.0.0
   resolution: "types-react-dom@npm:19.0.0"
@@ -2296,22 +2289,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react@npm:*, @types/react@npm:^19.0.0":
   version: 19.0.1
   resolution: "@types/react@npm:19.0.1"
   dependencies:
     csstype: "npm:^3.0.2"
   checksum: 10c0/25eb69114abb9a6d5fc4414ee584388275bbc9ac32976449cf58b95fe9880efe6b3f936c3842be9bed8c571546a9752e8d3e2095288381e9c809269f5f574f2e
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:^18.3.12":
-  version: 18.3.14
-  resolution: "@types/react@npm:18.3.14"
-  dependencies:
-    "@types/prop-types": "npm:*"
-    csstype: "npm:^3.0.2"
-  checksum: 10c0/d925fbfcf084238b93d1a0b5406d4cf9aeb37c4a1191559aa4ee107c2e55cc15327989140f03eddda4d471f5b935d4673fd74a86f451860edea18eae48ca44f8
   languageName: node
   linkType: hard
 
@@ -4242,7 +4225,7 @@ __metadata:
     "@floating-ui/react": "npm:^0.27.0"
     "@fluentui/react-components": "npm:^9.56.2"
     "@types/node": "npm:^22.9.3"
-    "@types/react": "npm:^18.3.12"
+    "@types/react": "npm:^19.0.0"
     "@types/react-dom": "npm:types-react-dom@19.0.0"
     "@typescript-eslint/eslint-plugin": "npm:^8.15.0"
     "@typescript-eslint/parser": "npm:^8.15.0"
