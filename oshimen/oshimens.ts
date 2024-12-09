@@ -119,4 +119,13 @@ export const oshimens: Oshimen[] = [
     description: '所沢住んでる人はみんな菜波推しです。',
     tweetId: '1858119803015512143',
   },
+  {
+    id: 'garumu',
+    name: 'がるむ',
+    emoji: '💙',
+    birthday: { month: 11, day: 29 },
+    shortDescription: 'ｶﾞﾙﾑﾁｬﾝ... ｶﾜｲｲﾈ...',
+    description: 'がるむちゃんのフード姿で救われる命があります。',
+    tweetId: '1865383612050514413',
+  },
 ]
