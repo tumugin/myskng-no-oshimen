@@ -9,7 +9,7 @@ export const oshimens: Oshimen[] = [
     shortDescription: 'ｸｵﾝﾁｬﾝ... マグメルのベイビーブルーさん。かわいい。',
     description:
       'こんなんどう見てもかわいい。あらゆるところがかわいい。172cmと高身長で、たまにバブでたまにお姉さんなところもかわいい。何もかもが好き。',
-    tweetId: '1840355371086422326',
+    tweetId: '1834908773204607042',
   },
   {
     id: 'uni_uni',
