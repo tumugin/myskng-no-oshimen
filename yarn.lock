@@ -871,14 +871,14 @@ __metadata:
   linkType: hard
 
 "@fluentui/react-icons@npm:^2.0.237, @fluentui/react-icons@npm:^2.0.239, @fluentui/react-icons@npm:^2.0.245":
-  version: 2.0.270
-  resolution: "@fluentui/react-icons@npm:2.0.270"
+  version: 2.0.271
+  resolution: "@fluentui/react-icons@npm:2.0.271"
   dependencies:
     "@griffel/react": "npm:^1.0.0"
     tslib: "npm:^2.1.0"
   peerDependencies:
     react: ">=16.8.0 <19.0.0"
-  checksum: 10c0/249b1aab97bbcfb3d7fd883f57a75aa3e7dc01196e1c2d02e12880956adcaa5a5745da8e76ecd482368766e65118a3111e57420044d8d90bcb96cb2862373bda
+  checksum: 10c0/30d374ba119921b4d96ada3be56b98716bab01bd410f2ef20bd5a5bbe027b98a0434af41ce20c90efb8c2135b800970b06cda837d6dbcca59d8e40776b939f3e
   languageName: node
   linkType: hard
 
@@ -2283,11 +2283,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:^22.9.3":
-  version: 22.10.6
-  resolution: "@types/node@npm:22.10.6"
+  version: 22.10.7
+  resolution: "@types/node@npm:22.10.7"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10c0/8b67affc211e5f9c74f7949cda04ca669721e50b83d71b8772a7bed7a4a3c41d663b3a794413f618e763ca6c5da8c234c25ffebcb0737983fc3e7415818ab9a7
+  checksum: 10c0/c941b4689dfc4044b64a5f601306cbcb0c7210be853ba378a5dd44137898c45accedd796ee002ad9407024cac7ecaf5049304951cb1d80ce3d7cebbbae56f20e
   languageName: node
   linkType: hard
 
@@ -2710,9 +2710,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001579":
-  version: 1.0.30001692
-  resolution: "caniuse-lite@npm:1.0.30001692"
-  checksum: 10c0/fca5105561ea12f3de593f3b0f062af82f7d07519e8dbcb97f34e7fd23349bcef1b1622a9a6cd2164d98e3d2f20059ef7e271edae46567aef88caf4c16c7708a
+  version: 1.0.30001695
+  resolution: "caniuse-lite@npm:1.0.30001695"
+  checksum: 10c0/acf90a767051fdd8083711b3ff9f07a28149c55e394115d8f874f149aa4f130e6bc50cea1dd94fe03035b9ebbe13b64f446518a6d2e19f72650962bdff44b2c5
   languageName: node
   linkType: hard
 
@@ -3087,11 +3087,11 @@ __metadata:
   linkType: hard
 
 "es-object-atoms@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "es-object-atoms@npm:1.0.0"
+  version: 1.1.1
+  resolution: "es-object-atoms@npm:1.1.1"
   dependencies:
     es-errors: "npm:^1.3.0"
-  checksum: 10c0/1fed3d102eb27ab8d983337bb7c8b159dd2a1e63ff833ec54eea1311c96d5b08223b433060ba240541ca8adba9eee6b0a60cdbf2f80634b784febc9cc8b687b4
+  checksum: 10c0/65364812ca4daf48eb76e2a3b7a89b3f6a2e62a1c420766ce9f692665a29d94fe41fe88b65f24106f449859549711e4b40d9fb8002d862dfd7eb1c512d10be0c
   languageName: node
   linkType: hard
 
@@ -3270,8 +3270,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-react@npm:^7.37.0":
-  version: 7.37.3
-  resolution: "eslint-plugin-react@npm:7.37.3"
+  version: 7.37.4
+  resolution: "eslint-plugin-react@npm:7.37.4"
   dependencies:
     array-includes: "npm:^3.1.8"
     array.prototype.findlast: "npm:^1.2.5"
@@ -3293,7 +3293,7 @@ __metadata:
     string.prototype.repeat: "npm:^1.0.0"
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
-  checksum: 10c0/e8b267ab928c63e651e35ba936e84098f4189fbaebbf3607341e6affedcfe39f2afba85fb3ef83ec322b32829b22d7433230eb6af0f692d262473c6a19441ba5
+  checksum: 10c0/4acbbdb19669dfa9a162ed8847c3ad1918f6aea1ceb675ee320b5d903b4e463fdef25e15233295b6d0a726fef2ea8b015c527da769c7690932ddc52d5b82ba12
   languageName: node
   linkType: hard
 
@@ -5169,9 +5169,9 @@ __metadata:
   linkType: hard
 
 "stylis@npm:^4.2.0":
-  version: 4.3.4
-  resolution: "stylis@npm:4.3.4"
-  checksum: 10c0/4899c2674cd2538e314257abd1ba7ea3c2176439659ddac6593c78192cfd4a06f814a0a4fc69bc7f8fcc6b997e13d383dd9b578b71074746a0fb86045a83e42d
+  version: 4.3.5
+  resolution: "stylis@npm:4.3.5"
+  checksum: 10c0/da2976e05a9bacd87450b59d64c17669e4a1043c01a91213420d88baeb4f3bcc58409335e5bbce316e3ba570e15d63e1393ec56cf1e60507782897ab3bb04872
   languageName: node
   linkType: hard
 
