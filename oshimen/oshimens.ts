@@ -128,4 +128,13 @@ export const oshimens: Oshimen[] = [
     description: 'がるむちゃんのフード姿で救われる命があります。',
     tweetId: '1865383612050514413',
   },
+  {
+    id: 'aoiuta',
+    name: '葵うた',
+    emoji: '🎤',
+    birthday: { month: 11, day: 8 },
+    shortDescription: 'ｺﾝﾅｶｵﾆﾅｯﾁｬｯﾃ... ｶﾜｲｿｳ...',
+    description: 'かずき__________',
+    tweetId: '1845439273811746884',
+  },
 ]
