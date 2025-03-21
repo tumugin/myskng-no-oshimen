@@ -69,7 +69,7 @@ export const oshimens: Oshimen[] = [
     shortDescription: 'ﾘｯｹﾁｪﾝ... ｶﾜｲｲﾈ...',
     description:
       'やはりﾘｯｹﾁｪﾝ... ｶﾜｲｲﾈ...。六椛ちゃんはいいぞ。いつも笑顔で、いつもかわいい。最高だね。',
-    tweetId: '1841475853953441879',
+    tweetId: '1902688812695966070',
   },
   {
     id: 'horie',
