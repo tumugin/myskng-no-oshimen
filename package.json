@@ -18,7 +18,7 @@
     "@floating-ui/react": "^0.27.5",
     "@fluentui/react-components": "^9.61.2",
     "dayjs": "^1.11.13",
-    "next": "15.2.3",
+    "next": "^15.1",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-twitter-embed": "^4.0.4",
