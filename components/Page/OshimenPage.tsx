@@ -10,8 +10,22 @@ import {
   ShinkenContainer,
   ShinkenContents,
 } from '@/components/Page/shinkenStyleShared'
+import { useWindowSize } from 'react-use'
+import Confetti from 'react-confetti'
+import { OnlyClient } from '@/components/OnlyClient'
+import { asiaTokyoDayjs } from '@/lib/tzDayjs'
+import { useMemo } from 'react'
 
 export function OshimenPage({ oshimen }: { oshimen: Oshimen }) {
+  const today = asiaTokyoDayjs()
+  const { width, height } = useWindowSize()
+  const isTodayBirthday = useMemo(
+    () =>
+      oshimen.birthday.month === today.month() + 1 &&
+      oshimen.birthday.day === today.date(),
+    [oshimen.birthday.day, oshimen.birthday.month, today],
+  )
+
   return (
     <ShinkenContainer>
       <ShinkenContents>
@@ -22,6 +36,11 @@ export function OshimenPage({ oshimen }: { oshimen: Oshimen }) {
           <Button>他の推しメンを見てみる</Button>
         </Link>
       </ShinkenContents>
+      {isTodayBirthday && (
+        <OnlyClient>
+          <Confetti width={width} height={height} />
+        </OnlyClient>
+      )}
     </ShinkenContainer>
   )
 }

@@ -20,8 +20,10 @@
     "dayjs": "^1.11.13",
     "next": "15.1",
     "react": "19.0.0",
+    "react-confetti": "^6.4.0",
     "react-dom": "19.0.0",
     "react-twitter-embed": "^4.0.4",
+    "react-use": "^17.6.0",
     "sharp": "^0.33.5",
     "the-new-css-reset": "^1.11.3"
   },
