@@ -30,4 +30,8 @@ export interface Oshimen {
    * 表示させるツイートID
    */
   tweetId: string
+  /**
+   * 種別
+   */
+  type: 'idol' | 'vtuber' | 'bassist' | 'voice_actor'
 }

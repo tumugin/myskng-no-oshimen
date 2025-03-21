@@ -2,6 +2,16 @@ import { Oshimen } from '@/oshimen/oshimen'
 
 export const oshimens: Oshimen[] = [
   {
+    id: 'yuki_sakuna',
+    name: '結城さくな',
+    emoji: '🐾',
+    birthday: { month: 12, day: 2 },
+    shortDescription: 'ｻｸﾀﾝ... ｶﾜｲｲﾈ...',
+    description: 'やっぱ結城さくななんだよなぁ〜〜〜〜〜〜〜❗❗❗❗❗❗❗',
+    tweetId: '1874123244867031448',
+    type: 'vtuber',
+  },
+  {
     id: 'kuwo_on',
     name: '玖遠いのり',
     emoji: '🍼',
@@ -10,6 +20,7 @@ export const oshimens: Oshimen[] = [
     description:
       'こんなんどう見てもかわいい。あらゆるところがかわいい。172cmと高身長で、たまにバブでたまにお姉さんなところもかわいい。何もかもが好き。',
     tweetId: '1834908773204607042',
+    type: 'idol',
   },
   {
     id: 'uni_uni',
@@ -20,6 +31,7 @@ export const oshimens: Oshimen[] = [
     description:
       'やはり雲丹うになんですよ、雲丹うに。ｵﾖﾒｻﾝ...です。ミラミラの音楽で顔面鍵盤くんになって、うにちゃんと限界トークするのが楽しいんだよなぁ。',
     tweetId: '1682746728460750853',
+    type: 'idol',
   },
   {
     id: 'nir',
@@ -30,6 +42,7 @@ export const oshimens: Oshimen[] = [
     description:
       'やはりｵﾆﾙｻﾝ...なんだよなぁ...。限界オタクなところも良い。いつも楽しい。いつもかわいい。',
     tweetId: '1814957022355579164',
+    type: 'idol',
   },
   {
     id: 'chia',
@@ -40,6 +53,7 @@ export const oshimens: Oshimen[] = [
     description:
       'やはりﾁｱﾁｬﾝ... かわいいね。ちあにあちあちなので、ぼくは。最近、ちあが可愛すぎて心が苦しいです。ガチで好きなんだなぁ...とね。',
     tweetId: '1837825076810731542',
+    type: 'idol',
   },
   {
     id: 'mayuri',
@@ -50,6 +64,7 @@ export const oshimens: Oshimen[] = [
     description:
       'やはりﾏﾕﾘﾁｬﾝ...妹のようにｶﾜｲｲﾈ...ﾏﾕﾘﾁｬﾝ...。いつも笑顔で、いつもかわいい。守りたいこの笑顔。',
     tweetId: '1846154507270635774',
+    type: 'idol',
   },
   {
     id: 'lilx_usaki',
@@ -60,6 +75,7 @@ export const oshimens: Oshimen[] = [
     description:
       '最近、りるさきが気になってるんですよね。もやしくん呼びが可愛すぎる。りるさきはいいぞ。',
     tweetId: '1847257456944292140',
+    type: 'idol',
   },
   {
     id: 'rikka',
@@ -70,6 +86,7 @@ export const oshimens: Oshimen[] = [
     description:
       'やはりﾘｯｹﾁｪﾝ... ｶﾜｲｲﾈ...。六椛ちゃんはいいぞ。いつも笑顔で、いつもかわいい。最高だね。',
     tweetId: '1902688812695966070',
+    type: 'idol',
   },
   {
     id: 'horie',
@@ -80,6 +97,7 @@ export const oshimens: Oshimen[] = [
     description:
       'やっぱ堀江晶太なんだよな〜〜〜〜。おまえらも堀江の曲を聴け。堀江曲からしか得られない成分がある。',
     tweetId: '1509887009380499457',
+    type: 'bassist',
   },
   {
     id: 'hisui',
@@ -90,6 +108,7 @@ export const oshimens: Oshimen[] = [
     description:
       '月ヒスの水着で夏が始まるって言っても過言じゃない。俺はそう信じている。',
     tweetId: '1820431513567277211',
+    type: 'idol',
   },
   {
     id: 'rin',
@@ -99,6 +118,7 @@ export const oshimens: Oshimen[] = [
     shortDescription: 'ﾘﾝﾁｬﾝ... ｶﾜｲｲﾈ...',
     description: 'やはりリンドウ=リン、お顔が良すぎる。良すぎるってマジで。',
     tweetId: '1848325062748946754',
+    type: 'idol',
   },
   {
     id: 'kino',
@@ -109,6 +129,7 @@ export const oshimens: Oshimen[] = [
     description:
       'おまえら、佳凪きのちゃんのこと好きだろ？noteは読んだか？あれは読んだ方が良いぞ。',
     tweetId: '1847210316666741024',
+    type: 'idol',
   },
   {
     id: 'nanami',
@@ -118,6 +139,7 @@ export const oshimens: Oshimen[] = [
     shortDescription: 'ﾅﾅﾐﾁｬﾝ... ｶｯｺｲｲﾈ...',
     description: '所沢住んでる人はみんな菜波推しです。',
     tweetId: '1858119803015512143',
+    type: 'idol',
   },
   {
     id: 'garumu',
@@ -127,6 +149,7 @@ export const oshimens: Oshimen[] = [
     shortDescription: 'ｶﾞﾙﾑﾁｬﾝ... ｶﾜｲｲﾈ...',
     description: 'がるむちゃんのフード姿で救われる命があります。',
     tweetId: '1865383612050514413',
+    type: 'idol',
   },
   {
     id: 'aoiuta',
@@ -136,5 +159,6 @@ export const oshimens: Oshimen[] = [
     shortDescription: 'ｺﾝﾅｶｵﾆﾅｯﾁｬｯﾃ... ｶﾜｲｿｳ...',
     description: 'かずき__________',
     tweetId: '1845439273811746884',
+    type: 'idol',
   },
 ]
