@@ -9,8 +9,9 @@ const notoColorEmoji = Noto_Color_Emoji({
 const EmojiBoxContainer = styled.div<{ size: number }>`
   font-size: ${({ size }) => size}px;
   // FIXME: There is a bug that the Next.js fonts are not loaded in Safari(iOS/macOS)
-  font-family: ${notoColorEmoji.style.fontFamily}, 'Apple Color Emoji',
-    'Android Emoji', 'Segoe UI';
+  font-family:
+    ${notoColorEmoji.style.fontFamily}, 'Apple Color Emoji', 'Android Emoji',
+    'Segoe UI';
 `
 
 export function EmojiBox({ emoji, size }: { emoji: string; size: number }) {
