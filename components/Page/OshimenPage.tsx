@@ -38,7 +38,11 @@ export function OshimenPage({ oshimen }: { oshimen: Oshimen }) {
       </ShinkenContents>
       {isTodayBirthday && (
         <OnlyClient>
-          <Confetti width={width} height={height} />
+          <Confetti
+            width={width}
+            height={height}
+            style={{ position: 'fixed' }}
+          />
         </OnlyClient>
       )}
     </ShinkenContainer>
