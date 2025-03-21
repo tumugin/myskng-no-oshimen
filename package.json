@@ -36,5 +36,5 @@
     "prettier": "^3.5.3",
     "typescript": "^5"
   },
-  "packageManager": "yarn@4.6.0"
+  "packageManager": "yarn@4.7.0"
 }
