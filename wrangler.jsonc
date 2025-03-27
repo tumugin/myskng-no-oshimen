@@ -22,5 +22,16 @@
     //   "binding": "NEXT_INC_CACHE_KV",
     //   "id": "<BINDING_ID>"
     // }
+  ],
+  "observability": {
+    "logs": {
+      "enabled": true
+    }
+  },
+  "routes": [
+    {
+      "pattern": "oshimen.myskng.xyz",
+      "custom_domain": true
+    }
   ]
 }
