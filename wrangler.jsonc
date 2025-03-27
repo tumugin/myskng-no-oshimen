@@ -6,14 +6,14 @@
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": ".open-next/assets",
-    "binding": "ASSETS",
+    "binding": "ASSETS"
   },
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
       // The service should match the "name" of your worker
-      "service": "myskng-no-oshimen",
-    },
+      "service": "myskng-no-oshimen"
+    }
   ],
   "kv_namespaces": [
     // Create a KV binding with the binding name "NEXT_INC_CACHE_KV"
@@ -22,6 +22,5 @@
     //   "binding": "NEXT_INC_CACHE_KV",
     //   "id": "<BINDING_ID>"
     // }
-  ],
+  ]
 }
-
