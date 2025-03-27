@@ -31,6 +31,7 @@
     "the-new-css-reset": "^1.11.3"
   },
   "devDependencies": {
+    "@opennextjs/aws": "^3.5.3",
     "@opennextjs/cloudflare": "^0.6.3",
     "@types/node": "^22.13.14",
     "@types/react": "^19.0.12",
