@@ -27,7 +27,7 @@
     "react-dom": "^19.0.0",
     "react-twitter-embed": "^4.0.4",
     "react-use": "^17.6.0",
-    "sharp": "^0.33.5",
+    "sharp": "^0.34.0",
     "the-new-css-reset": "^1.11.3"
   },
   "devDependencies": {
@@ -39,10 +39,10 @@
     "@typescript-eslint/eslint-plugin": "^8.28.0",
     "@typescript-eslint/parser": "^8.28.0",
     "eslint": "^9.23.0",
-    "eslint-config-next": "15.2.4",
+    "eslint-config-next": "15.3.0",
     "prettier": "^3.5.3",
     "typescript": "^5",
     "wrangler": "^4.5.0"
   },
-  "packageManager": "yarn@4.7.0"
+  "packageManager": "yarn@4.9.1"
 }
