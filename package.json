@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@opennextjs/aws": "^3.5.3",
-    "@opennextjs/cloudflare": "^0.6.3",
+    "@opennextjs/cloudflare": "^1.0.0",
     "@types/node": "^22.13.14",
     "@types/react": "^19.0.12",
     "@types/react-dom": "npm:types-react-dom@19.0.0",
