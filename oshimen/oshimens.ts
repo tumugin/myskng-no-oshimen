@@ -161,4 +161,14 @@ export const oshimens: Oshimen[] = [
     tweetId: '1845439273811746884',
     type: 'idol',
   },
+    {
+    id: 'ninehour',
+    name: '9時間1500円',
+    emoji: '💴',
+    birthday: { month: 6, day: 6 },
+    shortDescription: 'ｷｭｳｼﾞｶﾝｾﾝｺﾞﾋｬｸｴﾝ...ﾔｽｲﾈ...',
+    description:
+      '濃厚接触最高!!!!!!',
+    tweetId: '1136714183083511809',
+  },
 ]
