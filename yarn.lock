@@ -4439,33 +4439,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opennextjs/aws@https://pkg.pr.new/@opennextjs/aws@802":
-  version: 3.5.3
-  resolution: "@opennextjs/aws@https://pkg.pr.new/@opennextjs/aws@802"
-  dependencies:
-    "@ast-grep/napi": "npm:^0.35.0"
-    "@aws-sdk/client-cloudfront": "npm:3.398.0"
-    "@aws-sdk/client-dynamodb": "npm:^3.398.0"
-    "@aws-sdk/client-lambda": "npm:^3.398.0"
-    "@aws-sdk/client-s3": "npm:^3.398.0"
-    "@aws-sdk/client-sqs": "npm:^3.398.0"
-    "@node-minify/core": "npm:^8.0.6"
-    "@node-minify/terser": "npm:^8.0.6"
-    "@tsconfig/node18": "npm:^1.0.1"
-    aws4fetch: "npm:^1.0.18"
-    chalk: "npm:^5.3.0"
-    esbuild: "npm:0.19.2"
-    express: "npm:5.0.1"
-    path-to-regexp: "npm:^6.3.0"
-    urlpattern-polyfill: "npm:^10.0.0"
-    yaml: "npm:^2.7.0"
-  bin:
-    open-next: ./dist/index.js
-  checksum: 10c0/7634cdef4707f643b09d1c39e20ab9f02c80d709219633a40d376283789b22d75031742964f66ff655239e98bbb008c27ab85b658ee17fcaeeb36b2b640df6db
-  languageName: node
-  linkType: hard
-
-"@opennextjs/aws@npm:^3.5.3":
+"@opennextjs/aws@npm:^3.5.3, @opennextjs/aws@npm:^3.6.1":
   version: 3.6.1
   resolution: "@opennextjs/aws@npm:3.6.1"
   dependencies:
@@ -4491,19 +4465,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opennextjs/cloudflare@npm:^0.6.3":
-  version: 0.6.6
-  resolution: "@opennextjs/cloudflare@npm:0.6.6"
+"@opennextjs/cloudflare@npm:^1.0.0":
+  version: 1.0.2
+  resolution: "@opennextjs/cloudflare@npm:1.0.2"
   dependencies:
     "@dotenvx/dotenvx": "npm:1.31.0"
-    "@opennextjs/aws": "https://pkg.pr.new/@opennextjs/aws@802"
+    "@opennextjs/aws": "npm:^3.6.1"
     enquirer: "npm:^2.4.1"
     glob: "npm:^11.0.0"
+    ts-tqdm: "npm:^0.8.6"
   peerDependencies:
-    wrangler: ^3.114.1 || ^4.6.0
+    wrangler: ^4.14.0
   bin:
     opennextjs-cloudflare: dist/cli/index.js
-  checksum: 10c0/1026fb15a5047d8d5a7eee27047abaded46656cdab068311a6d5ea35a0905fd0c2de3b3efc1f1725eed8e9c8b6b1dc089aa75ae1b8b51cb655d18dd494f23c5b
+  checksum: 10c0/df55051cdb31d944fb9e0e5fac091ad297e773df18230e52c891ed4ce90ff9b3bd8fccbe7429849284e958bcdbbd9efb32109336137003f5dfde6717d11d0ea6
   languageName: node
   linkType: hard
 
@@ -9065,7 +9040,7 @@ __metadata:
     "@floating-ui/react": "npm:^0.27.5"
     "@fluentui/react-components": "npm:^9.61.4"
     "@opennextjs/aws": "npm:^3.5.3"
-    "@opennextjs/cloudflare": "npm:^0.6.3"
+    "@opennextjs/cloudflare": "npm:^1.0.0"
     "@types/node": "npm:^22.13.14"
     "@types/react": "npm:^19.0.12"
     "@types/react-dom": "npm:types-react-dom@19.0.0"
@@ -10792,6 +10767,13 @@ __metadata:
   version: 0.2.0
   resolution: "ts-easing@npm:0.2.0"
   checksum: 10c0/84ec20192310c697ff890ca2e0625e131a32596a7c5956326c9632faca9037abf2dd3de4d81ac358ae9f26a6a2cfe2300f13756b26995f753d882e3d0463e327
+  languageName: node
+  linkType: hard
+
+"ts-tqdm@npm:^0.8.6":
+  version: 0.8.6
+  resolution: "ts-tqdm@npm:0.8.6"
+  checksum: 10c0/f91574e4ee71a007987bcdbb21036c76499f2141c2190e0c1100bbc7e0908862935bb43762e7df2ab13e2838cba8bd371e5601aa5468098f3872dcea3fe54a0a
   languageName: node
   linkType: hard
 
