@@ -31,5 +31,8 @@
       "pattern": "oshimen.myskng.xyz",
       "custom_domain": true
     }
-  ]
+  ],
+  "placement": {
+    "mode": "smart"
+  }
 }
