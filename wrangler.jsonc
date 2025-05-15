@@ -15,6 +15,12 @@
       "service": "myskng-no-oshimen"
     }
   ],
+  "kv_namespaces": [
+    {
+      "binding": "NEXT_INC_CACHE_KV",
+      "id": "b2d6998addde47a58c453f87790b607c"
+    }
+  ],
   "observability": {
     "logs": {
       "enabled": true
