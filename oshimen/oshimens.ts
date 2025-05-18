@@ -16,10 +16,10 @@ export const oshimens: Oshimen[] = [
     name: '玖遠いのり',
     emoji: '🍼',
     birthday: { month: 9, day: 18 },
-    shortDescription: 'ｸｵﾝﾁｬﾝ... マグメルのベイビーブルーさん。かわいい。',
+    shortDescription: 'ｸｵﾝﾁｬﾝ... キングサリのベイビーブルーさん。かわいい。',
     description:
       'こんなんどう見てもかわいい。あらゆるところがかわいい。172cmと高身長で、たまにバブでたまにお姉さんなところもかわいい。何もかもが好き。',
-    tweetId: '1834908773204607042',
+    tweetId: '1919340203103469626',
     type: 'idol',
   },
   {
@@ -159,6 +159,17 @@ export const oshimens: Oshimen[] = [
     shortDescription: 'ｺﾝﾅｶｵﾆﾅｯﾁｬｯﾃ... ｶﾜｲｿｳ...',
     description: 'かずき__________',
     tweetId: '1845439273811746884',
+    type: 'idol',
+  },
+  {
+    id: 'hoshijima',
+    name: '星島ゆい',
+    emoji: '🪽',
+    birthday: { month: 5, day: 21 },
+    shortDescription: '星島ゆいは神、デカリボンを崇めろ',
+    description:
+      'デカリボンは神、可愛すぎるだろ。デカリボンによって救われる命はあります。',
+    tweetId: '1920084876067549251',
     type: 'idol',
   },
 ]
