@@ -10,9 +10,8 @@
     "prettier": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css,graphql}'",
     "prettier:check": "prettier --check --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css,graphql}'",
     "typecheck": "tsc --noEmit",
-    "build:worker": "opennextjs-cloudflare build",
-    "preview:worker": "opennextjs-cloudflare preview",
-    "preview": "yarn run build:worker && yarn run preview:worker",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
