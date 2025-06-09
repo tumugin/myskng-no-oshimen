@@ -172,4 +172,14 @@ export const oshimens: Oshimen[] = [
     tweetId: '1920084876067549251',
     type: 'idol',
   },
+  {
+    id: 'julia',
+    name: '久遠じゅりあ',
+    emoji: '🍺',
+    birthday: { month: 12, day: 4 },
+    shortDescription: 'じゅちゃん... かわいいね...',
+    description: 'たまに出る広島弁が可愛すぎて横転です。',
+    tweetId: '1925870820896702830',
+    type: 'idol',
+  },
 ]
