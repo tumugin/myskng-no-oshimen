@@ -225,4 +225,15 @@ export const oshimens: Oshimen[] = [
     tweetId: '1937497951502524604',
     type: 'idol',
   },
+  {
+    id: 'kimishima_nagi',
+    name: '君島凪',
+    emoji: '🐴',
+    birthday: { month: 6, day: 15 },
+    shortDescription: 'ﾅｷﾞﾁｬﾝ... ｶﾜｲｲﾈ...',
+    description:
+      'yosugalaの君島凪ちゃん。やばい、やばすぎる。競馬の話をしてる時のなぎちゃんの顔つきで横転です。穏やかな表情から一変して推し馬の話になった瞬間になぎオタクになった。159cmという絶妙な身長も完璧すぎて、いまなぎちゃん以外の女と結婚できないモード入ってる。',
+    tweetId: '1889281000171090114',
+    type: 'idol',
+  },
 ]
