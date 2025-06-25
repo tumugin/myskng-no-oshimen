@@ -203,4 +203,37 @@ export const oshimens: Oshimen[] = [
     tweetId: '1930621902839861539',
     type: 'idol',
   },
+  {
+    id: 'minami_miu',
+    name: '未波みう',
+    emoji: '🌅',
+    birthday: { month: 11, day: 6 },
+    shortDescription: 'みうちゃん... おはみゅしてね...',
+    description:
+      '「おはみゅ」してと本人はお願いしてました。朝一番のみうちゃんの「おはみゅ」で今日も一日頑張れる。そんな太陽のように明るいみうちゃんが大好きです。',
+    tweetId: '1931123946176548993',
+    type: 'idol',
+  },
+  {
+    id: 'yonagi_sena',
+    name: '夜凪せな',
+    emoji: '🌙',
+    birthday: { month: 3, day: 4 },
+    shortDescription: 'せなちゃん... 夜空のように美しい...',
+    description:
+      '夜の静寂を思わせる美しい名前のせなちゃん。月のアイコンがよく似合う、神秘的な魅力のアイドル。',
+    tweetId: '1937497951502524604',
+    type: 'idol',
+  },
+  {
+    id: 'kimishima_nagi',
+    name: '君島凪',
+    emoji: '🐴',
+    birthday: { month: 6, day: 15 },
+    shortDescription: 'ﾅｷﾞﾁｬﾝ... ｶﾜｲｲﾈ...',
+    description:
+      'yosugalaの君島凪ちゃん。やばい、やばすぎる。競馬の話をしてる時のなぎちゃんの顔つきで横転です。穏やかな表情から一変して推し馬の話になった瞬間になぎオタクになった。159cmという絶妙な身長も完璧すぎて、いまなぎちゃん以外の女と結婚できないモード入ってる。',
+    tweetId: '1889281000171090114',
+    type: 'idol',
+  },
 ]
