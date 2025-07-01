@@ -10,6 +10,7 @@ export const oshimens: Oshimen[] = [
     description: 'やっぱ結城さくななんだよなぁ〜〜〜〜〜〜〜❗❗❗❗❗❗❗',
     tweetId: '1874123244867031448',
     type: 'vtuber',
+    omoideCount: 0,
   },
   {
     id: 'kuwo_on',
@@ -21,6 +22,7 @@ export const oshimens: Oshimen[] = [
       'こんなんどう見てもかわいい。あらゆるところがかわいい。172cmと高身長で、たまにバブでたまにお姉さんなところもかわいい。何もかもが好き。',
     tweetId: '1937837821315649839',
     type: 'idol',
+    omoideCount: 189,
   },
   {
     id: 'uni_uni',
@@ -32,6 +34,7 @@ export const oshimens: Oshimen[] = [
       'やはり雲丹うになんですよ、雲丹うに。ｵﾖﾒｻﾝ...です。ミラミラの音楽で顔面鍵盤くんになって、うにちゃんと限界トークするのが楽しいんだよなぁ。',
     tweetId: '1682746728460750853',
     type: 'idol',
+    omoideCount: 327,
   },
   {
     id: 'nir',
@@ -43,6 +46,7 @@ export const oshimens: Oshimen[] = [
       'やはりｵﾆﾙｻﾝ...なんだよなぁ...。限界オタクなところも良い。いつも楽しい。いつもかわいい。',
     tweetId: '1814957022355579164',
     type: 'idol',
+    omoideCount: 175,
   },
   {
     id: 'chia',
@@ -54,6 +58,7 @@ export const oshimens: Oshimen[] = [
       'やはりﾁｱﾁｬﾝ... かわいいね。ちあにあちあちなので、ぼくは。最近、ちあが可愛すぎて心が苦しいです。ガチで好きなんだなぁ...とね。',
     tweetId: '1837825076810731542',
     type: 'idol',
+    omoideCount: 188,
   },
   {
     id: 'mayuri',
@@ -65,6 +70,7 @@ export const oshimens: Oshimen[] = [
       'やはりﾏﾕﾘﾁｬﾝ...妹のようにｶﾜｲｲﾈ...ﾏﾕﾘﾁｬﾝ...。いつも笑顔で、いつもかわいい。守りたいこの笑顔。',
     tweetId: '1846154507270635774',
     type: 'idol',
+    omoideCount: 121,
   },
   {
     id: 'lilx_usaki',
@@ -76,6 +82,7 @@ export const oshimens: Oshimen[] = [
       '最近、りるさきが気になってるんですよね。もやしくん呼びが可愛すぎる。りるさきはいいぞ。',
     tweetId: '1847257456944292140',
     type: 'idol',
+    omoideCount: 49,
   },
   {
     id: 'rikka',
@@ -87,6 +94,7 @@ export const oshimens: Oshimen[] = [
       'やはりﾘｯｹﾁｪﾝ... ｶﾜｲｲﾈ...。六椛ちゃんはいいぞ。いつも笑顔で、いつもかわいい。最高だね。',
     tweetId: '1902688812695966070',
     type: 'idol',
+    omoideCount: 20,
   },
   {
     id: 'horie',
@@ -98,6 +106,7 @@ export const oshimens: Oshimen[] = [
       'やっぱ堀江晶太なんだよな〜〜〜〜。おまえらも堀江の曲を聴け。堀江曲からしか得られない成分がある。',
     tweetId: '1509887009380499457',
     type: 'bassist',
+    omoideCount: 0,
   },
   {
     id: 'hisui',
@@ -109,6 +118,7 @@ export const oshimens: Oshimen[] = [
       '月ヒスの水着で夏が始まるって言っても過言じゃない。俺はそう信じている。',
     tweetId: '1820431513567277211',
     type: 'idol',
+    omoideCount: 1,
   },
   {
     id: 'rin',
@@ -119,6 +129,7 @@ export const oshimens: Oshimen[] = [
     description: 'やはりリンドウ=リン、お顔が良すぎる。良すぎるってマジで。',
     tweetId: '1848325062748946754',
     type: 'idol',
+    omoideCount: 10,
   },
   {
     id: 'kino',
@@ -130,6 +141,7 @@ export const oshimens: Oshimen[] = [
       'おまえら、佳凪きのちゃんのこと好きだろ？noteは読んだか？あれは読んだ方が良いぞ。',
     tweetId: '1847210316666741024',
     type: 'idol',
+    omoideCount: 7,
   },
   {
     id: 'nanami',
@@ -140,6 +152,7 @@ export const oshimens: Oshimen[] = [
     description: '所沢住んでる人はみんな菜波推しです。',
     tweetId: '1858119803015512143',
     type: 'idol',
+    omoideCount: 0,
   },
   {
     id: 'garumu',
@@ -150,6 +163,7 @@ export const oshimens: Oshimen[] = [
     description: 'がるむちゃんのフード姿で救われる命があります。',
     tweetId: '1865383612050514413',
     type: 'idol',
+    omoideCount: 10,
   },
   {
     id: 'aoiuta',
@@ -160,6 +174,7 @@ export const oshimens: Oshimen[] = [
     description: 'かずき__________',
     tweetId: '1845439273811746884',
     type: 'idol',
+    omoideCount: 6,
   },
   {
     id: 'hoshijima',
@@ -171,6 +186,7 @@ export const oshimens: Oshimen[] = [
       'デカリボンは神、可愛すぎるだろ。デカリボンによって救われる命はあります。',
     tweetId: '1920084876067549251',
     type: 'idol',
+    omoideCount: 5,
   },
   {
     id: 'julia',
@@ -181,6 +197,7 @@ export const oshimens: Oshimen[] = [
     description: 'たまに出る広島弁が可愛すぎて横転です。',
     tweetId: '1925870820896702830',
     type: 'idol',
+    omoideCount: 4,
   },
   {
     id: 'kariwori',
@@ -191,6 +208,7 @@ export const oshimens: Oshimen[] = [
     description: 'カリヲリ〜〜〜〜〜〜〜〜！！！！！！！！！',
     tweetId: '1929147951953133970',
     type: 'idol',
+    omoideCount: 3,
   },
   {
     id: 'emiru',
@@ -202,6 +220,7 @@ export const oshimens: Oshimen[] = [
       'えみーるは結婚してくれ〜〜〜〜〜と言うと結婚してくれないので結婚キャンセル界隈と言われています。お姉さんなところも可愛すぎて限界オタクになってしまう。',
     tweetId: '1930621902839861539',
     type: 'idol',
+    omoideCount: 1,
   },
   {
     id: 'minami_miu',
@@ -213,6 +232,7 @@ export const oshimens: Oshimen[] = [
       '「おはみゅ」してと本人はお願いしてました。朝一番のみうちゃんの「おはみゅ」で今日も一日頑張れる。そんな太陽のように明るいみうちゃんが大好きです。',
     tweetId: '1931123946176548993',
     type: 'idol',
+    omoideCount: 4,
   },
   {
     id: 'yonagi_sena',
@@ -224,6 +244,7 @@ export const oshimens: Oshimen[] = [
       '夜の静寂を思わせる美しい名前のせなちゃん。月のアイコンがよく似合う、神秘的な魅力のアイドル。',
     tweetId: '1937497951502524604',
     type: 'idol',
+    omoideCount: 2,
   },
   {
     id: 'kimishima_nagi',
@@ -235,5 +256,6 @@ export const oshimens: Oshimen[] = [
       'yosugalaの君島凪ちゃん。やばい、やばすぎる。競馬の話をしてる時のなぎちゃんの顔つきで横転です。穏やかな表情から一変して推し馬の話になった瞬間になぎオタクになった。159cmという絶妙な身長も完璧すぎて、いまなぎちゃん以外の女と結婚できないモード入ってる。',
     tweetId: '1889281000171090114',
     type: 'idol',
+    omoideCount: 9,
   },
 ]

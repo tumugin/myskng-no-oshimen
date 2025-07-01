@@ -48,15 +48,24 @@ const StyledBlockLink = styled(Link)`
 
 export function OshimenListPage({ oshimens }: { oshimens: Oshimen[] }) {
   const idols = useMemo(
-    () => oshimens.filter((v) => v.type === 'idol'),
+    () =>
+      oshimens
+        .filter((v) => v.type === 'idol')
+        .sort((a, b) => b.omoideCount - a.omoideCount),
     [oshimens],
   )
   const vtubers = useMemo(
-    () => oshimens.filter((v) => v.type === 'vtuber'),
+    () =>
+      oshimens
+        .filter((v) => v.type === 'vtuber')
+        .sort((a, b) => b.omoideCount - a.omoideCount),
     [oshimens],
   )
   const bassists = useMemo(
-    () => oshimens.filter((v) => v.type === 'bassist'),
+    () =>
+      oshimens
+        .filter((v) => v.type === 'bassist')
+        .sort((a, b) => b.omoideCount - a.omoideCount),
     [oshimens],
   )
 
