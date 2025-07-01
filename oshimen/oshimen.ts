@@ -34,4 +34,8 @@ export interface Oshimen {
    * 種別
    */
   type: 'idol' | 'vtuber' | 'bassist' | 'voice_actor'
+  /**
+   * 推しメンの思い出の数。チェキの枚数など。分からない場合は0を入れること。
+   */
+  omoideCount: number
 }
