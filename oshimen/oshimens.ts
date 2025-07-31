@@ -230,7 +230,7 @@ export const oshimens: Oshimen[] = [
     shortDescription: 'みうちゃん... おはみゅしてね...',
     description:
       '「おはみゅ」してと本人はお願いしてました。朝一番のみうちゃんの「おはみゅ」で今日も一日頑張れる。そんな太陽のように明るいみうちゃんが大好きです。',
-    tweetId: '1931123946176548993',
+    tweetId: '1950330505502576823',
     type: 'idol',
     omoideCount: 4,
   },
