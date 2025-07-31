@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# myskng-no-oshimen
 
-## Getting Started
+推しメン紹介サイト - ランダムに推しメンを表示するNext.jsアプリケーションです。
 
-First, run the development server:
+## 技術スタック
+
+- **フレームワーク**: Next.js 15.3.5 (App Router)
+- **UI**: React 19 + Fluent UI React Components
+- **スタイリング**: Emotion (CSS-in-JS)
+- **テスト**: Vitest + Testing Library
+- **デプロイ**: Cloudflare Pages (OpenNext)
+- **言語**: TypeScript
+
+## 機能
+
+- 推しメンをランダムに表示
+- 推しメン一覧の閲覧
+- 個別の推しメンページ
+- 誕生日特殊処理
+- レスポンシブデザイン
+- Twitter埋め込み対応
+
+## 開発環境のセットアップ
+
+### 必要な環境
+
+- Node.js (推奨バージョン: 18以上)
+- Yarn (パッケージマネージャー)
+
+### インストールと起動
 
 ```bash
-npm run dev
-# or
+# 依存関係のインストール
+yarn install
+
+# 開発サーバーの起動
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+開発サーバーが起動したら [http://localhost:3000](http://localhost:3000) でアクセスできます。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 利用可能なコマンド
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# 開発サーバー起動（Turbopack使用）
+yarn dev
 
-## Learn More
+# 本番ビルド
+yarn build
 
-To learn more about Next.js, take a look at the following resources:
+# 本番サーバー起動
+yarn start
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# リンター実行
+yarn lint
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# コードフォーマット
+yarn prettier
 
-## Deploy on Vercel
+# フォーマットチェック
+yarn prettier:check
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 型チェック
+yarn typecheck
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# テスト実行
+yarn test
+
+# Cloudflareにデプロイ
+yarn deploy
+
+# Cloudflareにプレビューデプロイ
+yarn preview
+
+# Cloudflare型定義生成
+yarn cf-typegen
+```
+
+## プロジェクト構成
+
+```
+├── app/                    # Next.js App Router
+│   ├── oshimens/          # 推しメン関連ページ
+│   └── page.tsx           # ホームページ
+├── components/            # Reactコンポーネント
+│   ├── Card/             # カードコンポーネント
+│   ├── Header/           # ヘッダーコンポーネント
+│   ├── Page/             # ページコンポーネント
+│   └── TadoBoy/          # キャラクターコンポーネント
+├── hooks/                # カスタムフック
+├── lib/                  # ユーティリティ関数
+├── oshimen/              # 推しメンデータ定義
+├── tests/                # テストファイル
+└── vitest.config.mts     # テスト設定
+```
+
+## 推しメンデータの追加
+
+新しい推しメンを追加するには `oshimen/oshimens.ts` を編集してください。各推しメンは以下の型に従って定義します：
+
+```typescript
+interface Oshimen {
+  id: string                    // 一意なID
+  name: string                  // 名前
+  emoji: string                 // 絵文字
+  birthday: { month: number, day: number }  // 誕生日
+  shortDescription: string      // 短い説明
+  description: string          // 詳細説明
+  tweetId: string             // 表示するツイートID
+  type: 'idol' | 'vtuber' | 'bassist' | 'voice_actor'  // 種別
+  omoideCount: number         // 思い出の数
+}
+```
+
+## デプロイ
+
+このプロジェクトはCloudflare Pagesでホストされています：
+
+```bash
+# プロダクションデプロイ
+yarn deploy
+
+# プレビューデプロイ
+yarn preview
+```
+
+## ライセンス
+
+このプロジェクトは[MIT License](LICENSE)の下で公開されています。
