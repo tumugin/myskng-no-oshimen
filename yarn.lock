@@ -10082,7 +10082,7 @@ __metadata:
     eslint: "npm:^9.23.0"
     eslint-config-next: "npm:15.3.4"
     jsdom: "npm:^26.1.0"
-    next: "npm:^15.2"
+    next: "npm:15.3.5"
     prettier: "npm:^3.5.3"
     react: "npm:^19.0.0"
     react-confetti: "npm:^6.4.0"
@@ -10149,7 +10149,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:^15.2":
+"next@npm:15.3.5":
   version: 15.3.5
   resolution: "next@npm:15.3.5"
   dependencies:
