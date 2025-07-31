@@ -1,8 +1,23 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", "group:allNonMajor"],
+  "extends": ["config:base"],
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": false
-  }
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": ["next"],
+      "groupName": "Next.js"
+    },
+    {
+      "matchPackageNames": ["@next/*"],
+      "groupName": "Next.js"
+    },
+    {
+      "excludePackageNames": ["next", "@next/*"],
+      "groupName": "non-major dependencies",
+      "matchUpdateTypes": ["minor", "patch"]
+    }
+  ]
 }
