@@ -4685,34 +4685,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opennextjs/aws@npm:3.7.1":
-  version: 3.7.1
-  resolution: "@opennextjs/aws@npm:3.7.1"
-  dependencies:
-    "@ast-grep/napi": "npm:^0.35.0"
-    "@aws-sdk/client-cloudfront": "npm:3.398.0"
-    "@aws-sdk/client-dynamodb": "npm:^3.398.0"
-    "@aws-sdk/client-lambda": "npm:^3.398.0"
-    "@aws-sdk/client-s3": "npm:^3.398.0"
-    "@aws-sdk/client-sqs": "npm:^3.398.0"
-    "@node-minify/core": "npm:^8.0.6"
-    "@node-minify/terser": "npm:^8.0.6"
-    "@tsconfig/node18": "npm:^1.0.1"
-    aws4fetch: "npm:^1.0.18"
-    chalk: "npm:^5.3.0"
-    cookie: "npm:^1.0.2"
-    esbuild: "npm:0.25.4"
-    express: "npm:5.0.1"
-    path-to-regexp: "npm:^6.3.0"
-    urlpattern-polyfill: "npm:^10.0.0"
-    yaml: "npm:^2.7.0"
-  bin:
-    open-next: dist/index.js
-  checksum: 10c0/915bcd56253e8b99faa3ee1e8f953c0c455ae6c79bf5b2bf83db3a11e9a2bf468eafebe6de3bd90489227fa19e8bfb6ce479cee303338575412fed5a4dd77ddf
-  languageName: node
-  linkType: hard
-
-"@opennextjs/aws@npm:^3.5.3":
+"@opennextjs/aws@npm:3.7.2, @opennextjs/aws@npm:^3.5.3":
   version: 3.7.2
   resolution: "@opennextjs/aws@npm:3.7.2"
   dependencies:
@@ -4740,11 +4713,11 @@ __metadata:
   linkType: hard
 
 "@opennextjs/cloudflare@npm:^1.0.0":
-  version: 1.6.2
-  resolution: "@opennextjs/cloudflare@npm:1.6.2"
+  version: 1.6.3
+  resolution: "@opennextjs/cloudflare@npm:1.6.3"
   dependencies:
     "@dotenvx/dotenvx": "npm:1.31.0"
-    "@opennextjs/aws": "npm:3.7.1"
+    "@opennextjs/aws": "npm:3.7.2"
     cloudflare: "npm:^4.4.1"
     enquirer: "npm:^2.4.1"
     glob: "npm:^11.0.0"
@@ -4754,7 +4727,7 @@ __metadata:
     wrangler: ^4.24.4
   bin:
     opennextjs-cloudflare: dist/cli/index.js
-  checksum: 10c0/0731bab8de9d7445e9cbbca10dcf40a2f10d0f896fa54d6a047240e0688a6d5979de0896f6ad31c7ac3de5f1fb414dbcaf281372e2d32677afcc603eaf3731da
+  checksum: 10c0/36c342373c18645fbf73c575d9b226ce2f6e5341f4483bc30b2de838db01b0dcd14fbbc902bb69a62612ee3ccdd782cc7d10f41d33b72f7993e55f3654a2e26a
   languageName: node
   linkType: hard
 
