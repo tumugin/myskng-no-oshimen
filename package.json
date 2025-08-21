@@ -44,7 +44,7 @@
     "@typescript-eslint/parser": "^8.28.0",
     "@vitejs/plugin-react": "^5.0.0",
     "eslint": "^9.23.0",
-    "eslint-config-next": "15.4.6",
+    "eslint-config-next": "15.5.0",
     "jsdom": "^26.1.0",
     "prettier": "^3.5.3",
     "typescript": "^5",
@@ -52,5 +52,5 @@
     "vitest": "^3.2.4",
     "wrangler": "^4.5.0"
   },
-  "packageManager": "yarn@4.9.2"
+  "packageManager": "yarn@4.9.3"
 }
