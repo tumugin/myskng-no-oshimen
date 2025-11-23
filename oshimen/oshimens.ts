@@ -263,7 +263,7 @@ export const oshimens: Oshimen[] = [
     name: '藤咲もも',
     emoji: '🍑',
     birthday: { month: 12, day: 8 },
-    shortDescription: 'ﾓﾓﾁｬﾝ... ももとにこにこ... 紫担当のHIBANAアイドル',
+    shortDescription: 'ﾓﾓﾁｬﾝ... ももとにこにこ...',
     description:
       'HIBANAで紫を担当カラーとして活動中のももちゃん。明るく笑顔が魅力で、「ももとにこにこ」というハッシュタグでファンに親しまれている。元気でポジティブな性格が特徴で、ライブやSNSでファンとの交流を積極的に行う。紫をイメージカラーに可愛らしいビジュアルで支持を集めている。',
     tweetId: '1991090245379760518',
@@ -275,7 +275,7 @@ export const oshimens: Oshimen[] = [
     name: '月影れい',
     emoji: '🌙',
     birthday: { month: 9, day: 13 },
-    shortDescription: 'ﾚｲﾁｬﾝ... 月影のミステリアスクールビューティ',
+    shortDescription: 'ﾚｲﾁｬﾝ...俺はリンクラインを見ろおじさんだよ...',
     description:
       'linixlineで活動中のれいちゃん。ミステリアスでクールな雰囲気を持ちながら、柔らかい表情が魅力。SNSでは日常のスナップやファッションを投稿し、ファンを引きつける。釣りやアウトドアが趣味で多面的な魅力がある。月影という名前の通り、夜や幻想的なイメージが似合うビジュアル。',
     tweetId: '1972539256255185231',
