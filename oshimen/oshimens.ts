@@ -56,7 +56,7 @@ export const oshimens: Oshimen[] = [
     shortDescription: 'ﾁｱﾁｬﾝ... かわいいね。',
     description:
       'やはりﾁｱﾁｬﾝ... かわいいね。ちあにあちあちなので、ぼくは。最近、ちあが可愛すぎて心が苦しいです。ガチで好きなんだなぁ...とね。',
-    tweetId: '1837825076810731542',
+    tweetId: '1963549556957966500',
     type: 'idol',
     omoideCount: 281,
   },
