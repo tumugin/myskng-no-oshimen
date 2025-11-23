@@ -41,7 +41,7 @@ export function ShinkenTadoBoy({
         element: arrowRef,
       }),
     ],
-    []
+    [],
   )
 
   const { refs, floatingStyles, context } = useFloating({
