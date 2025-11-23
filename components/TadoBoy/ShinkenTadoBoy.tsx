@@ -5,7 +5,7 @@ import {
   offset,
   useFloating,
 } from '@floating-ui/react'
-import { useRef } from 'react'
+import { useMemo, useRef } from 'react'
 import { TadoBoy } from '@/components/TadoBoy/TadoBoy'
 import styled from '@emotion/styled'
 import { OnlyClient } from '@/components/OnlyClient'
@@ -32,23 +32,31 @@ export function ShinkenTadoBoy({
   shinkenIdolName: string
 }) {
   const arrowRef = useRef(null)
+
+  const middleware = useMemo(
+    () => [
+      offset(16),
+      // eslint-disable-next-line react-hooks/refs
+      arrow({
+        element: arrowRef,
+      }),
+    ],
+    [],
+  )
+
   const { refs, floatingStyles, context } = useFloating({
     placement: 'top',
     whileElementsMounted(referenceEl, floatingEl, update) {
       return autoUpdate(referenceEl, floatingEl, update, {})
     },
-    middleware: [
-      offset(16),
-      arrow({
-        element: arrowRef,
-      }),
-    ],
+    middleware,
   })
 
   return (
     <>
       <TadoBoy ref={refs.setReference} />
       <OnlyClient>
+        {/* eslint-disable-next-line react-hooks/refs */}
         <Popup ref={refs.setFloating} style={floatingStyles}>
           <span>
             <ShinkenText>{shinkenIdolName}</ShinkenText>に真剣です
