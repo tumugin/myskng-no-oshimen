@@ -22,7 +22,7 @@ export const oshimens: Oshimen[] = [
       'こんなんどう見てもかわいい。あらゆるところがかわいい。172cmと高身長で、たまにバブでたまにお姉さんなところもかわいい。何もかもが好き。',
     tweetId: '1956340857315238316',
     type: 'idol',
-    omoideCount: 189,
+    omoideCount: 200,
   },
   {
     id: 'uni_uni',
@@ -34,7 +34,7 @@ export const oshimens: Oshimen[] = [
       'やはり雲丹うになんですよ、雲丹うに。ｵﾖﾒｻﾝ...です。ミラミラの音楽で顔面鍵盤くんになって、うにちゃんと限界トークするのが楽しいんだよなぁ。',
     tweetId: '1682746728460750853',
     type: 'idol',
-    omoideCount: 327,
+    omoideCount: 399,
   },
   {
     id: 'nir',
@@ -46,7 +46,7 @@ export const oshimens: Oshimen[] = [
       'やはりｵﾆﾙｻﾝ...なんだよなぁ...。限界オタクなところも良い。いつも楽しい。いつもかわいい。',
     tweetId: '1814957022355579164',
     type: 'idol',
-    omoideCount: 175,
+    omoideCount: 190,
   },
   {
     id: 'chia',
@@ -58,7 +58,7 @@ export const oshimens: Oshimen[] = [
       'やはりﾁｱﾁｬﾝ... かわいいね。ちあにあちあちなので、ぼくは。最近、ちあが可愛すぎて心が苦しいです。ガチで好きなんだなぁ...とね。',
     tweetId: '1837825076810731542',
     type: 'idol',
-    omoideCount: 188,
+    omoideCount: 281,
   },
   {
     id: 'mayuri',
@@ -70,7 +70,7 @@ export const oshimens: Oshimen[] = [
       'やはりﾏﾕﾘﾁｬﾝ...妹のようにｶﾜｲｲﾈ...ﾏﾕﾘﾁｬﾝ...。いつも笑顔で、いつもかわいい。守りたいこの笑顔。',
     tweetId: '1846154507270635774',
     type: 'idol',
-    omoideCount: 121,
+    omoideCount: 128,
   },
   {
     id: 'lilx_usaki',
@@ -82,7 +82,7 @@ export const oshimens: Oshimen[] = [
       '最近、りるさきが気になってるんですよね。もやしくん呼びが可愛すぎる。りるさきはいいぞ。',
     tweetId: '1847257456944292140',
     type: 'idol',
-    omoideCount: 49,
+    omoideCount: 56,
   },
   {
     id: 'rikka',
@@ -94,7 +94,7 @@ export const oshimens: Oshimen[] = [
       'やはりﾘｯｹﾁｪﾝ... ｶﾜｲｲﾈ...。六椛ちゃんはいいぞ。いつも笑顔で、いつもかわいい。最高だね。',
     tweetId: '1902688812695966070',
     type: 'idol',
-    omoideCount: 20,
+    omoideCount: 26,
   },
   {
     id: 'horie',
@@ -141,7 +141,7 @@ export const oshimens: Oshimen[] = [
       'おまえら、佳凪きのちゃんのこと好きだろ？noteは読んだか？あれは読んだ方が良いぞ。',
     tweetId: '1847210316666741024',
     type: 'idol',
-    omoideCount: 7,
+    omoideCount: 10,
   },
   {
     id: 'nanami',
@@ -174,7 +174,7 @@ export const oshimens: Oshimen[] = [
     description: 'かずき__________',
     tweetId: '1845439273811746884',
     type: 'idol',
-    omoideCount: 6,
+    omoideCount: 11,
   },
   {
     id: 'hoshijima',
@@ -197,7 +197,7 @@ export const oshimens: Oshimen[] = [
     description: 'たまに出る広島弁が可愛すぎて横転です。',
     tweetId: '1925870820896702830',
     type: 'idol',
-    omoideCount: 4,
+    omoideCount: 12,
   },
   {
     id: 'kariwori',
@@ -208,7 +208,7 @@ export const oshimens: Oshimen[] = [
     description: 'カリヲリ〜〜〜〜〜〜〜〜！！！！！！！！！',
     tweetId: '1929147951953133970',
     type: 'idol',
-    omoideCount: 3,
+    omoideCount: 6,
   },
   {
     id: 'emiru',
@@ -220,7 +220,7 @@ export const oshimens: Oshimen[] = [
       'えみーるは結婚してくれ〜〜〜〜〜と言うと結婚してくれないので結婚キャンセル界隈と言われています。お姉さんなところも可愛すぎて限界オタクになってしまう。',
     tweetId: '1930621902839861539',
     type: 'idol',
-    omoideCount: 1,
+    omoideCount: 3,
   },
   {
     id: 'minami_miu',
@@ -232,7 +232,7 @@ export const oshimens: Oshimen[] = [
       '「おはみゅ」してと本人はお願いしてました。朝一番のみうちゃんの「おはみゅ」で今日も一日頑張れる。そんな太陽のように明るいみうちゃんが大好きです。',
     tweetId: '1950330505502576823',
     type: 'idol',
-    omoideCount: 4,
+    omoideCount: 11,
   },
   {
     id: 'yonagi_sena',
@@ -244,7 +244,7 @@ export const oshimens: Oshimen[] = [
       '夜の静寂を思わせる美しい名前のせなちゃん。月のアイコンがよく似合う、神秘的な魅力のアイドル。',
     tweetId: '1937497951502524604',
     type: 'idol',
-    omoideCount: 2,
+    omoideCount: 5,
   },
   {
     id: 'kimishima_nagi',
@@ -256,6 +256,30 @@ export const oshimens: Oshimen[] = [
       'yosugalaの君島凪ちゃん。やばい、やばすぎる。競馬の話をしてる時のなぎちゃんの顔つきで横転です。穏やかな表情から一変して推し馬の話になった瞬間になぎオタクになった。159cmという絶妙な身長も完璧すぎて、いまなぎちゃん以外の女と結婚できないモード入ってる。',
     tweetId: '1889281000171090114',
     type: 'idol',
-    omoideCount: 9,
+    omoideCount: 19,
+  },
+  {
+    id: 'fujisaki_momo',
+    name: '藤咲もも',
+    emoji: '🍑',
+    birthday: { month: 12, day: 8 },
+    shortDescription: 'ﾓﾓﾁｬﾝ... ももとにこにこ... 紫担当のHIBANAアイドル',
+    description:
+      'HIBANAで紫を担当カラーとして活動中のももちゃん。明るく笑顔が魅力で、「ももとにこにこ」というハッシュタグでファンに親しまれている。元気でポジティブな性格が特徴で、ライブやSNSでファンとの交流を積極的に行う。紫をイメージカラーに可愛らしいビジュアルで支持を集めている。',
+    tweetId: '1991090245379760518',
+    type: 'idol',
+    omoideCount: 3,
+  },
+  {
+    id: 'tsukikage_rei',
+    name: '月影れい',
+    emoji: '🌙',
+    birthday: { month: 9, day: 13 },
+    shortDescription: 'ﾚｲﾁｬﾝ... 月影のミステリアスクールビューティ',
+    description:
+      'linixlineで活動中のれいちゃん。ミステリアスでクールな雰囲気を持ちながら、柔らかい表情が魅力。SNSでは日常のスナップやファッションを投稿し、ファンを引きつける。釣りやアウトドアが趣味で多面的な魅力がある。月影という名前の通り、夜や幻想的なイメージが似合うビジュアル。',
+    tweetId: '1972539256255185231',
+    type: 'idol',
+    omoideCount: 5,
   },
 ]
