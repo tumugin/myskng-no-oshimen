@@ -17,7 +17,8 @@ import styled from '@emotion/styled'
 import { tokens } from '@fluentui/react-components'
 
 const TableWrapper = styled.div`
-  max-width: 500px;
+  max-width: 600px;
+  width: 100%;
 `
 
 const StyledUl = styled.ul`
@@ -122,7 +123,7 @@ export function AboutMePage() {
         <ShinkenTadoBoy shinkenIdolName="エンジニアリング" />
         <Title3>もやしきんぐとは？</Title3>
         <TableWrapper>
-          <Table arial-label="Default table" style={{ minWidth: '510px' }}>
+          <Table arial-label="Default table">
             <TableHeader>
               <TableRow>
                 {columns.map((column) => (
