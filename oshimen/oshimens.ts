@@ -282,4 +282,16 @@ export const oshimens: Oshimen[] = [
     type: 'idol',
     omoideCount: 5,
   },
+  {
+    id: 'yukine_tnla',
+    name: 'ユキネ',
+    emoji: '❄️',
+    birthday: { month: 12, day: 14 },
+    shortDescription: 'ﾕｷﾈﾁｬﾝ...ｵﾈｴﾁｬﾝと結婚したら義妹にしてあげるね...',
+    description:
+      '「はじめまして。先日オタクにチェキを代行してもらったもやしキングです。お姉ちゃんから来ました。」',
+    tweetId: '1999128277999665378',
+    type: 'idol',
+    omoideCount: 3,
+  },
 ]
