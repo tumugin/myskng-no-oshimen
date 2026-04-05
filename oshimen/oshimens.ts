@@ -49,18 +49,6 @@ export const oshimens: Oshimen[] = [
     omoideCount: 190,
   },
   {
-    id: 'chia',
-    name: '未白ちあ',
-    emoji: '🐹',
-    birthday: { month: 2, day: 23 },
-    shortDescription: 'ﾁｱﾁｬﾝ... かわいいね。',
-    description:
-      'やはりﾁｱﾁｬﾝ... かわいいね。ちあにあちあちなので、ぼくは。最近、ちあが可愛すぎて心が苦しいです。ガチで好きなんだなぁ...とね。',
-    tweetId: '1963549556957966500',
-    type: 'idol',
-    omoideCount: 281,
-  },
-  {
     id: 'mayuri',
     name: '仔羽まゆり',
     emoji: '👼',
@@ -107,18 +95,6 @@ export const oshimens: Oshimen[] = [
     tweetId: '1509887009380499457',
     type: 'bassist',
     omoideCount: 0,
-  },
-  {
-    id: 'hisui',
-    name: '月埜ヒスイ',
-    emoji: '🌊',
-    birthday: { month: 7, day: 23 },
-    shortDescription: 'ﾋｽｲﾁｬﾝ... ｶﾜｲｲﾈ...',
-    description:
-      '月ヒスの水着で夏が始まるって言っても過言じゃない。俺はそう信じている。',
-    tweetId: '1820431513567277211',
-    type: 'idol',
-    omoideCount: 1,
   },
   {
     id: 'rin',
@@ -245,18 +221,6 @@ export const oshimens: Oshimen[] = [
     tweetId: '1937497951502524604',
     type: 'idol',
     omoideCount: 5,
-  },
-  {
-    id: 'kimishima_nagi',
-    name: '君島凪',
-    emoji: '🐴',
-    birthday: { month: 6, day: 15 },
-    shortDescription: 'ﾅｷﾞﾁｬﾝ... ｶﾜｲｲﾈ...',
-    description:
-      'yosugalaの君島凪ちゃん。やばい、やばすぎる。競馬の話をしてる時のなぎちゃんの顔つきで横転です。穏やかな表情から一変して推し馬の話になった瞬間になぎオタクになった。159cmという絶妙な身長も完璧すぎて、いまなぎちゃん以外の女と結婚できないモード入ってる。',
-    tweetId: '1889281000171090114',
-    type: 'idol',
-    omoideCount: 19,
   },
   {
     id: 'fujisaki_momo',
