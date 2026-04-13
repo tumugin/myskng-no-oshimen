@@ -55,7 +55,7 @@ export const oshimens: Oshimen[] = [
     birthday: { month: 2, day: 23 },
     shortDescription: 'ﾁｱﾁｬﾝ... かわいいね。',
     description:
-      'やはりﾁｱﾁｬﾝ... かわいいね。ちあにあちあちなので、ぼくは。最近、ちあが可愛すぎて心が苦しいです。ガチで好きなんだなぁ...とね。',
+      'やはりﾁｱﾁｬﾝ... かわいいね。最近、ちあが可愛すぎて心が苦しいです。',
     tweetId: '1963549556957966500',
     type: 'idol',
     omoideCount: 281,
@@ -109,14 +109,14 @@ export const oshimens: Oshimen[] = [
     omoideCount: 0,
   },
   {
-    id: 'hisui',
-    name: '月埜ヒスイ',
+    id: 'nekoze',
+    name: 'ねこぜ',
     emoji: '🌊',
     birthday: { month: 7, day: 23 },
     shortDescription: 'ﾋｽｲﾁｬﾝ... ｶﾜｲｲﾈ...',
     description:
-      '月ヒスの水着で夏が始まるって言っても過言じゃない。俺はそう信じている。',
-    tweetId: '1820431513567277211',
+     '「レムコスからきました！ねこぜちゃんがだいすきです！個人的にはラム派です！」',
+    tweetId: '2024321509343494380?s=20',
     type: 'idol',
     omoideCount: 1,
   },
