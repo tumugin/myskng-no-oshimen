@@ -115,7 +115,7 @@ export const oshimens: Oshimen[] = [
     birthday: { month: 7, day: 23 },
     shortDescription: 'ﾋｽｲﾁｬﾝ... ｶﾜｲｲﾈ...',
     description:
-     '「レムコスからきました！ねこぜちゃんがだいすきです！個人的にはラム派です！」',
+      '「レムコスからきました！ねこぜちゃんがだいすきです！個人的にはラム派です！」',
     tweetId: '2024321509343494380?s=20',
     type: 'idol',
     omoideCount: 1,
