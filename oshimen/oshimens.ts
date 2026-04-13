@@ -20,7 +20,7 @@ export const oshimens: Oshimen[] = [
     shortDescription: 'ｸｵﾝﾁｬﾝ... キングサリのベイビーブルーさん。かわいい。',
     description:
       'こんなんどう見てもかわいい。あらゆるところがかわいい。172cmと高身長で、たまにバブでたまにお姉さんなところもかわいい。何もかもが好き。',
-    tweetId: '1997642894807568526',
+    tweetId: '1992909335404663086',
     type: 'idol',
     omoideCount: 200,
   },
