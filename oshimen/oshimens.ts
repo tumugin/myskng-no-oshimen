@@ -22,7 +22,7 @@ export const oshimens: Oshimen[] = [
       'キングサリのベイビーブルー、172cmの高身長でバブとお姉さんを反復横跳びしてくるので脳が処理落ちしました。抱っこしてあげたいのに身長的に抱き上げられるのはオタクの方です。ベイビーブルーを骨髄に点滴してください。',
     tweetId: '1997642894807568526',
     type: 'idol',
-    omoideCount: 200,
+    omoideCount: 0,
   },
   {
     id: 'uni_uni',
@@ -34,7 +34,7 @@ export const oshimens: Oshimen[] = [
       'ラーメンが好きで雲丹は苦手な雲丹うに、名前の時点で永久に味わえる矛盾。ミラミラのピアノコアを顔面で受け、ラーメンの湯気としてうにちゃんの前髪に付着したい。モノポライズされたので、オタクの生きる意味も所有権も全部うにちゃんのものです。ｵﾖﾒｻﾝ...',
     tweetId: '1682746728460750853',
     type: 'idol',
-    omoideCount: 399,
+    omoideCount: 108,
   },
   {
     id: 'nir',
@@ -46,7 +46,7 @@ export const oshimens: Oshimen[] = [
       'PRSMINの水色担当NiR。こちら側の人類と同じ限界オタクの波動を出しているのに、ステージに上がると急に発光体になる。オニルサンから射出された水色のプリズムが脳内で無限反射しています。やはりｵﾆﾙｻﾝ...なんだよなぁ...',
     tweetId: '1814957022355579164',
     type: 'idol',
-    omoideCount: 190,
+    omoideCount: 9,
   },
   {
     id: 'mayuri',
@@ -58,7 +58,7 @@ export const oshimens: Oshimen[] = [
       'PRSMINの白色、黒髪ボブの元気な末っ子。末っ子と公式が言うので戸籍の妹欄に仔羽まゆりと勝手に記入し、毎月脳内扶養手当を支給しています。マユリチャンの笑顔を守るつもりが、気づくとこちらの生活が守られている。',
     tweetId: '1846154507270635774',
     type: 'idol',
-    omoideCount: 128,
+    omoideCount: 1,
   },
   {
     id: 'lilx_usaki',
@@ -70,7 +70,7 @@ export const oshimens: Oshimen[] = [
       'Mirror,Mirrorの赤、他人のために涙を流せる心優しきクイーンオブハーツ。りるさきに「もやしくん」と呼ばれるたびに体内の種が発芽し、今では内臓の8割がもやしです。グミみたいな手で握りつぶされ、青春の一欠片として永久保存されたい。',
     tweetId: '1847257456944292140',
     type: 'idol',
-    omoideCount: 56,
+    omoideCount: 7,
   },
   {
     id: 'rikka',
@@ -82,7 +82,7 @@ export const oshimens: Oshimen[] = [
       'INUWASIに降り立った白色の六椛ちゃん。笑顔を直視するたびに眼球が白く塗りつぶされ、視界の全ピクセルがリッケチェンになる。ハイブリッドラプターの巣を頭蓋骨の中に作っておいたので、いつでも帰ってきてください。',
     tweetId: '1902688812695966070',
     type: 'idol',
-    omoideCount: 26,
+    omoideCount: 1,
   },
   {
     id: 'horie',
@@ -106,7 +106,7 @@ export const oshimens: Oshimen[] = [
       'YOLOZ最年少、公式自己紹介が「顔と髪が綺麗です」。事実すぎて文化庁に国宝指定を申請しました。リンちゃんの髪を一本ずつ数えながら余生を過ごしたい。今後は髪の毛を臓器として生きます。',
     tweetId: '1848325062748946754',
     type: 'idol',
-    omoideCount: 10,
+    omoideCount: 0,
   },
   {
     id: 'kino',
@@ -142,7 +142,7 @@ export const oshimens: Oshimen[] = [
       '北欧神話で冥界の番犬を意味する名を持つINUWASIのがるむ。フード姿で救われた命なので、その暗がりに畳一畳の部屋を借りて永久に暮らしたい。番犬に守られたいと思っていたはずが、首輪を付けられて所有されているのはオタクの方でした。',
     tweetId: '1865383612050514413',
     type: 'idol',
-    omoideCount: 10,
+    omoideCount: 0,
   },
   {
     id: 'aoiuta',
@@ -154,7 +154,7 @@ export const oshimens: Oshimen[] = [
       'かずき__________。Palette Paradeの紫、負けず嫌いで早食いで、歌にまっすぐな葵うた。歌声を耳から静脈注射されるたび血液が紫に染まり、心拍までパレパレのBPMになる。もう鼓膜では足りないので内臓全部で聴かせてください。',
     tweetId: '1845439273811746884',
     type: 'idol',
-    omoideCount: 11,
+    omoideCount: 0,
   },
   {
     id: 'hoshijima',
@@ -166,7 +166,7 @@ export const oshimens: Oshimen[] = [
       'Merry BAD TUNE.の白、高音ボイスとゲームとアニメとコスプレ、そしてデカリボン。リボンのひだ一枚を賃貸契約して住民票を移し、毎月リボン税を納めています。星島ゆいの高音が鳴るたび結び目を締め直されて生命維持されたい。',
     tweetId: '1920084876067549251',
     type: 'idol',
-    omoideCount: 5,
+    omoideCount: 0,
   },
   {
     id: 'julia',
@@ -178,7 +178,7 @@ export const oshimens: Oshimen[] = [
       '広島出身、Axelightの緑。居酒屋巡りとビールと日本酒を愛する久遠じゅりあの広島弁が出るたび、鼓膜の内側で小さなじゅちゃんが喋り始めて横転する。肝臓はすでに献上済みなので、今後の乾杯は血中アルコール濃度で感じます。',
     tweetId: '1925870820896702830',
     type: 'idol',
-    omoideCount: 12,
+    omoideCount: 7,
   },
   {
     id: 'kariwori',
@@ -190,7 +190,7 @@ export const oshimens: Oshimen[] = [
       'INUWASIのカリヲリ。二色の髪、通称メンマの境界線に家を建て、優しさを水道として引き込みたい。テトリスがうますぎるので、オタクの歪んだ人生も長棒一本で消してください。カリヲリ〜〜〜〜〜〜〜〜！！！！！！！！！',
     tweetId: '1929147951953133970',
     type: 'idol',
-    omoideCount: 6,
+    omoideCount: 2,
   },
   {
     id: 'emiru',
@@ -202,7 +202,7 @@ export const oshimens: Oshimen[] = [
       'キングサリの赤、絶対的ヒロインで料理もできる栗原えみる。結婚してくれ〜〜〜〜〜と叫ぶたび結婚キャンセルされるので、婚姻届を束で抱えて役所の前に住んでいます。えみーるの手料理を想像だけで咀嚼しながら、18回目のプロポーズを準備中です。',
     tweetId: '1930621902839861539',
     type: 'idol',
-    omoideCount: 3,
+    omoideCount: 0,
   },
   {
     id: 'minami_miu',
@@ -214,7 +214,7 @@ export const oshimens: Oshimen[] = [
       'KAMAITACIの未波みう。ボブと柔らかな笑顔が朝日に見えるので、「おはみゅ」を摂取しない日は血中みう濃度が下がって起き上がれません。毎朝「おはみゅ」を静脈投与され、透明感で内臓まで透かされながら一日を始めたい。',
     tweetId: '1950330505502576823',
     type: 'idol',
-    omoideCount: 11,
+    omoideCount: 0,
   },
   {
     id: 'yonagi_sena',
@@ -226,7 +226,7 @@ export const oshimens: Oshimen[] = [
       'KAMAITACI公式認定、ギャップ萌えムードメーカー担当の夜凪せな。そのギャップの高低差から毎回転落し、三半規管を失ったまま月明かりの下を這っています。静かな夜だと思った瞬間にせなちゃんが来て全部持っていくので、情緒の所有権はもうありません。',
     tweetId: '1937497951502524604',
     type: 'idol',
-    omoideCount: 5,
+    omoideCount: 0,
   },
   {
     id: 'fujisaki_momo',
@@ -238,7 +238,7 @@ export const oshimens: Oshimen[] = [
       'HIBANAの紫、藤咲もも。#ももとにこにこ を見るたび頬の筋肉が遠隔操作され、こちらも強制的ににこにこになる。ももちゃんの笑顔を角膜へ永久コーティングしたので、目を閉じても視界いっぱいに藤咲ももが咲いています。',
     tweetId: '1987524211137794278',
     type: 'idol',
-    omoideCount: 3,
+    omoideCount: 8,
   },
   {
     id: 'tsukikage_rei',
@@ -250,19 +250,7 @@ export const oshimens: Oshimen[] = [
       '.LiNIXLiNEの月影れい。#れいにお礼参り と #月影プれいリスト を反復するうち、月影が網膜の裏側に焼き付いて夜しか見えなくなりました。リンクラインの現場で浴びた光を脳内再生しながら、月の裏でお礼参りを待っています。',
     tweetId: '1970837418468413593',
     type: 'idol',
-    omoideCount: 5,
-  },
-  {
-    id: 'yukine_tnla',
-    name: 'ユキネ',
-    emoji: '❄️',
-    birthday: { month: 12, day: 14 },
-    shortDescription: 'ﾕｷﾈﾁｬﾝ... お姉ちゃんと結婚して戸籍の妹欄を空けた...',
-    description:
-      '「はじめまして。先日オタクにチェキを代行してもらったもやしキングです。お姉ちゃんから来ました。」歌えて踊れて5曲も振付したユキネの白メッシュを遺伝子情報として取り込みたい。お姉ちゃんと結婚して義妹にするため、脳内家系図はすでに改ざん済みです。',
-    tweetId: '1999128277999665378',
-    type: 'idol',
-    omoideCount: 3,
+    omoideCount: 39,
   },
   {
     id: 'sumiha_tnla',
@@ -286,7 +274,7 @@ export const oshimens: Oshimen[] = [
       'ルノンの脳直ツイートを毎朝吸わないと一日が始まらない体になりました。思案ブルーの思案がTwitter経由でオタクの脚に流れ込んでくる。これがるんぽこのある生活。ルノン、今日もツイートしてくれてありがとう。',
     tweetId: '1680907730499043328',
     type: 'idol',
-    omoideCount: 10,
+    omoideCount: 26,
   },
   {
     id: 'rukawa_luca',
@@ -298,7 +286,7 @@ export const oshimens: Oshimen[] = [
       'パスラジのデカい音で鼓膜を壊して、瑠川るかのお顔で視力を壊して、最後にダンスで脚みそを焼いてもらう。五感のうち三つをるかちゃんに差し出しているので、残りの二つもいつでも持っていってください。',
     tweetId: '1952377205125984361',
     type: 'idol',
-    omoideCount: 10,
+    omoideCount: 2,
   },
   {
     id: 'pastel_radio_marine',
@@ -310,7 +298,7 @@ export const oshimens: Oshimen[] = [
       'マリンちゃんの黒髪スーパーロング、一本ずつに番地を振って住民票を置きたい。パスラジの水色でLABOnes.のメイドで感性まで美しいので、もうマリンちゃんのビーカーの底に沈殿する不純物でいいです。',
     tweetId: '1952403679488921848',
     type: 'idol',
-    omoideCount: 10,
+    omoideCount: 1,
   },
   {
     id: 'amesun_luvrix',
@@ -322,7 +310,7 @@ export const oshimens: Oshimen[] = [
       'あめすんのブルーシグナルを受信するため、脚内にアンテナを増設しました。ダンスするあめすんの残像を永久保存し、アイスと卵焼きをお供えしています。ノイズでもいいので、あめすんの電波を常に感じていたい。',
     tweetId: '2049842719984644266',
     type: 'idol',
-    omoideCount: 10,
+    omoideCount: 2,
   },
   {
     id: 'togari_yuma',
@@ -334,6 +322,6 @@ export const oshimens: Oshimen[] = [
       '兎仮ゆま、もう網膜の裏とか脚みそのしわの間とか、普通は人が入らないところ全部にいる。「誰よりも、尖ってこーぜ♡」と言われたので毎日脚みそを削って尖らせています。ゆまちゃん、テナント料は永久無料です。',
     tweetId: '2048016678378684858',
     type: 'idol',
-    omoideCount: 10,
+    omoideCount: 1,
   },
 ]
