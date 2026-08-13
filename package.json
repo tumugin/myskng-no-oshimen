@@ -43,11 +43,11 @@
     "@typescript-eslint/eslint-plugin": "^8.67.0",
     "@typescript-eslint/parser": "^8.67.0",
     "@vitejs/plugin-react": "^6.0.5",
-    "eslint": "^10.8.1",
+    "eslint": "^9.39.5",
     "eslint-config-next": "16.3.0",
     "jsdom": "^30.0.1",
     "prettier": "^3.9.6",
-    "typescript": "^7",
+    "typescript": "^6.0.3",
     "vite-tsconfig-paths": "^6.1.1",
     "vitest": "^4.1.10",
     "wrangler": "^4.122.0"
