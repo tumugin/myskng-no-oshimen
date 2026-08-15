@@ -45,6 +45,8 @@ export function OshimenCard({ oshimen }: { oshimen: Oshimen }) {
           tweetId={oshimen.tweetId}
           options={{ height: '500px', theme: 'dark' }}
           placeholder={<TweetSkeleton />}
+          // `tweetId` だけ変えても表示が変わらないので `key` を変えて強制的に再マウントさせる
+          key={oshimen.tweetId}
         />
       </TwitterContainer>
       <CardFooter>
