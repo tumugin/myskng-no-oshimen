@@ -45,7 +45,7 @@
     "@vitejs/plugin-react": "^6.0.5",
     "eslint": "^9.39.5",
     "eslint-config-next": "16.4.3",
-    "jsdom": "^30.0.1",
+    "jsdom": "^31.0.0",
     "prettier": "^3.9.6",
     "typescript": "^6.0.3",
     "vite-tsconfig-paths": "^6.1.1",
