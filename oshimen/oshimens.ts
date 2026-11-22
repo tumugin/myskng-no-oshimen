@@ -22,7 +22,7 @@ export const oshimens: Oshimen[] = [
       'キングサリのベイビーブルー、172cmの高身長でバブとお姉さんを反復横跳びしてくるので脳が処理落ちしました。抱っこしてあげたいのに身長的に抱き上げられるのはオタクの方です。ベイビーブルーを骨髄に点滴してください。',
     tweetId: '1997642894807568526',
     type: 'idol',
-    omoideCount: 0,
+    omoideCount: 1,
   },
   {
     id: 'uni_uni',
@@ -34,7 +34,7 @@ export const oshimens: Oshimen[] = [
       'ラーメンが好きで雲丹は苦手な雲丹うに、名前の時点で永久に味わえる矛盾。ミラミラのピアノコアを顔面で受け、ラーメンの湯気としてうにちゃんの前髪に付着したい。モノポライズされたので、オタクの生きる意味も所有権も全部うにちゃんのものです。ｵﾖﾒｻﾝ...',
     tweetId: '2084622564475953232',
     type: 'idol',
-    omoideCount: 108,
+    omoideCount: 99,
   },
   {
     id: 'nir',
@@ -46,7 +46,7 @@ export const oshimens: Oshimen[] = [
       'PRSMINの水色担当NiR。こちら側の人類と同じ限界オタクの波動を出しているのに、ステージに上がると急に発光体になる。オニルサンから射出された水色のプリズムが脳内で無限反射しています。やはりｵﾆﾙｻﾝ...なんだよなぁ...',
     tweetId: '1814957022355579164',
     type: 'idol',
-    omoideCount: 9,
+    omoideCount: 3,
   },
   {
     id: 'mayuri',
@@ -82,7 +82,7 @@ export const oshimens: Oshimen[] = [
       'INUWASIに降り立った白色の六椛ちゃん。笑顔を直視するたびに眼球が白く塗りつぶされ、視界の全ピクセルがリッケチェンになる。ハイブリッドラプターの巣を頭蓋骨の中に作っておいたので、いつでも帰ってきてください。',
     tweetId: '1902688812695966070',
     type: 'idol',
-    omoideCount: 1,
+    omoideCount: 0,
   },
   {
     id: 'horie',
@@ -118,7 +118,7 @@ export const oshimens: Oshimen[] = [
       '駅とアニメと言葉を愛するKolokolの佳凪きの。noteを読むたびに文章が頭蓋骨の裏側へ無断転載され、行間に栞を作って書き手のことを待っている。すでに全記事へ脳内ブックマーク済みです。',
     tweetId: '1847210316666741024',
     type: 'idol',
-    omoideCount: 10,
+    omoideCount: 2,
   },
   {
     id: 'nanami',
@@ -178,7 +178,7 @@ export const oshimens: Oshimen[] = [
       '広島出身、Axelightの緑。居酒屋巡りとビールと日本酒を愛する久遠じゅりあの広島弁が出るたび、鼓膜の内側で小さなじゅちゃんが喋り始めて横転する。肝臓はすでに献上済みなので、今後の乾杯は血中アルコール濃度で感じます。',
     tweetId: '1925870820896702830',
     type: 'idol',
-    omoideCount: 7,
+    omoideCount: 4,
   },
   {
     id: 'kariwori',
@@ -190,7 +190,7 @@ export const oshimens: Oshimen[] = [
       'INUWASIのカリヲリ。二色の髪、通称メンマの境界線に家を建て、優しさを水道として引き込みたい。テトリスがうますぎるので、オタクの歪んだ人生も長棒一本で消してください。カリヲリ〜〜〜〜〜〜〜〜！！！！！！！！！',
     tweetId: '1929147951953133970',
     type: 'idol',
-    omoideCount: 2,
+    omoideCount: 0,
   },
   {
     id: 'emiru',
@@ -214,7 +214,7 @@ export const oshimens: Oshimen[] = [
       'KAMAITACIの未波みう。ボブと柔らかな笑顔が朝日に見えるので、「おはみゅ」を摂取しない日は血中みう濃度が下がって起き上がれません。毎朝「おはみゅ」を静脈投与され、透明感で内臓まで透かされながら一日を始めたい。',
     tweetId: '1950330505502576823',
     type: 'idol',
-    omoideCount: 0,
+    omoideCount: 3,
   },
   {
     id: 'yonagi_sena',
@@ -238,7 +238,7 @@ export const oshimens: Oshimen[] = [
       'HIBANAの紫、藤咲もも。#ももとにこにこ を見るたび頬の筋肉が遠隔操作され、こちらも強制的ににこにこになる。ももちゃんの笑顔を角膜へ永久コーティングしたので、目を閉じても視界いっぱいに藤咲ももが咲いています。',
     tweetId: '1987524211137794278',
     type: 'idol',
-    omoideCount: 8,
+    omoideCount: 7,
   },
   {
     id: 'tsukikage_rei',
@@ -250,7 +250,7 @@ export const oshimens: Oshimen[] = [
       '.LiNIXLiNEの月影れい。#れいにお礼参り と #月影プれいリスト を反復するうち、月影が網膜の裏側に焼き付いて夜しか見えなくなりました。リンクラインの現場で浴びた光を脳内再生しながら、月の裏でお礼参りを待っています。',
     tweetId: '2057100013415887310',
     type: 'idol',
-    omoideCount: 39,
+    omoideCount: 64,
   },
   {
     id: 'sumiha_tnla',
@@ -262,7 +262,7 @@ export const oshimens: Oshimen[] = [
       'スーちゃんはトナリアのピンク最年少なのでオタクがよちよちしてあげますね〜〜〜〜。あっ、空手黒帯二段。よちよちされるのはこちらでした。シナモンと川になってスーちゃんの視界の端で生きたい。',
     tweetId: '2083843456456360285',
     type: 'idol',
-    omoideCount: 10,
+    omoideCount: 6,
   },
   {
     id: 'runon_tnla',
@@ -274,7 +274,7 @@ export const oshimens: Oshimen[] = [
       'ルノンの脳直ツイートを毎朝吸わないと一日が始まらない体になりました。思案ブルーの思案がTwitter経由でオタクの脚に流れ込んでくる。これがるんぽこのある生活。ルノン、今日もツイートしてくれてありがとう。',
     tweetId: '2067958144953987170',
     type: 'idol',
-    omoideCount: 26,
+    omoideCount: 15,
   },
   {
     id: 'rukawa_luca',
@@ -286,7 +286,7 @@ export const oshimens: Oshimen[] = [
       'パスラジのデカい音で鼓膜を壊して、瑠川るかのお顔で視力を壊して、最後にダンスで脚みそを焼いてもらう。五感のうち三つをるかちゃんに差し出しているので、残りの二つもいつでも持っていってください。',
     tweetId: '2081326395565981731',
     type: 'idol',
-    omoideCount: 2,
+    omoideCount: 77,
   },
   {
     id: 'pastel_radio_marine',
@@ -298,7 +298,7 @@ export const oshimens: Oshimen[] = [
       'マリンちゃんの黒髪スーパーロング、一本ずつに番地を振って住民票を置きたい。パスラジの水色でLABOnes.のメイドで感性まで美しいので、もうマリンちゃんのビーカーの底に沈殿する不純物でいいです。',
     tweetId: '2073386986036191572',
     type: 'idol',
-    omoideCount: 1,
+    omoideCount: 8,
   },
   {
     id: 'amesun_luvrix',
@@ -310,7 +310,7 @@ export const oshimens: Oshimen[] = [
       'あめすんのブルーシグナルを受信するため、脚内にアンテナを増設しました。ダンスするあめすんの残像を永久保存し、アイスと卵焼きをお供えしています。ノイズでもいいので、あめすんの電波を常に感じていたい。',
     tweetId: '2067208683352936500',
     type: 'idol',
-    omoideCount: 2,
+    omoideCount: 5,
   },
   {
     id: 'togari_yuma',
@@ -322,6 +322,6 @@ export const oshimens: Oshimen[] = [
       '兎仮ゆま、もう網膜の裏とか脚みそのしわの間とか、普通は人が入らないところ全部にいる。「誰よりも、尖ってこーぜ♡」と言われたので毎日脚みそを削って尖らせています。ゆまちゃん、テナント料は永久無料です。',
     tweetId: '2075220351819436080',
     type: 'idol',
-    omoideCount: 1,
+    omoideCount: 7,
   },
 ]
