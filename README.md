@@ -4,7 +4,7 @@
 
 ## 技術スタック
 
-- **フレームワーク**: Next.js 15.3.5 (App Router)
+- **フレームワーク**: Next.js 16 (App Router)
 - **UI**: React 19 + Fluent UI React Components
 - **スタイリング**: Emotion (CSS-in-JS)
 - **テスト**: Vitest + Testing Library
@@ -24,8 +24,8 @@
 
 ### 必要な環境
 
-- Node.js (推奨バージョン: 18以上)
-- Yarn (パッケージマネージャー)
+- Node.js 24 LTS (`.nvmrc` でパッチバージョンを指定)
+- Yarn 4 (`package.json` の `packageManager` でバージョンを指定)
 
 ### インストールと起動
 
