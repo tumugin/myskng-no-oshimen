@@ -9,6 +9,7 @@ import { useMemo, useRef } from 'react'
 import { TadoBoy } from '@/components/TadoBoy/TadoBoy'
 import styled from '@emotion/styled'
 import { OnlyClient } from '@/components/OnlyClient'
+import Link from 'next/link'
 
 const Popup = styled.div`
   padding: 12px;
@@ -54,7 +55,9 @@ export function ShinkenTadoBoy({
 
   return (
     <>
-      <TadoBoy ref={refs.setReference} />
+      <Link href="/profile">
+        <TadoBoy ref={refs.setReference} />
+      </Link>
       <OnlyClient>
         {/* eslint-disable-next-line react-hooks/refs */}
         <Popup ref={refs.setFloating} style={floatingStyles}>
