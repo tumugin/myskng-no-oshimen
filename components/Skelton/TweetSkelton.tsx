@@ -20,6 +20,10 @@ const NameArea = styled.div`
   width: 100%;
 `
 
+const SkeltonImageArea = styled(SkeletonItem)`
+  height: 750px;
+`
+
 export function TweetSkeleton() {
   return (
     <Container>
@@ -37,7 +41,7 @@ export function TweetSkeleton() {
         </NameArea>
       </HeadArea>
       <Skeleton>
-        <SkeletonItem style={{ height: '450px' }} />
+        <SkeltonImageArea />
       </Skeleton>
     </Container>
   )
